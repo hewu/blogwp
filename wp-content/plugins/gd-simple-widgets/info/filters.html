@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>GD Simple Widgets: Filters</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--[if IE ]><link rel="stylesheet" href="style_ie.css" type="text/css" media="screen" /><![endif]-->
+  </head>
+  <body>
+
+<div id="sidebar">
+    <h4>Contents:</h4>
+    <ul>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="functions.html">Functions</a></li>
+        <li><a href="filters.html">Filters</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="languages.html">Translations</a></li>
+    </ul>
+    <h4>Plugin Links:</h4>
+    <ul>
+        <li><a href="http://www.dev4press.com/plugins/gd-simple-widgets/">Home Page</a></li>
+        <li><a href="http://wordpress.org/extend/plugins/gd-simple-widgets">WordPress Extend</a></li>
+        <li><a href="http://groups.google.com/group/dev4press">Google Groups</a></li>
+        <li><a href="http://twitter.com/milangd">Follow on Twitter</a></li>
+    </ul>
+    <h4>PRO</h4>
+    <ul>
+        <li><a href="http://www.gdsimplewidgets.com/">PRO Version</a></li>
+    </ul>
+    <h4>Support:</h4>
+    <ul>
+        <li><a href="http://forum.gdragon.info/">Support Forum</a></li>
+    </ul>
+    <h4>Other Links:</h4>
+    <ul>
+        <li><a href="http://www.dev4press.com/">Dev4Press</a></li>
+        <li><a href="http://www.gdstarrating.com/">GD Star Rating</a></li>
+    </ul>
+    <h4 class="copyright">Copyright:</h4>
+    <p>
+        &copy; 2009. <a href="http://www.gdragon.info/">Golden Dragon WebStudio</a>
+    </p>
+</div>
+<div id="content">
+<div class="title">
+    <h1>GD Simple Widgets</h1>
+    <h2>filters</h2>
+</div>
+
+<div class="contents">
+    <p>This is the list of filters and actions added by the plugin. You can use them as any standard WordPress filters and actions from other plugins or themes. Parameters, if they are existing, are colored red. What needs to be returned is colored blue. If the return is misisng for the filter.</p>
+    <ul>
+        <li><strong>gdsw_results_$widget</strong>: <em style="color: #cc0000;">$results, $instance</em>, <em style="color: #0000cc;">$results</em> filter for modifying data array before rendering.</li>
+        <li><strong>gdsw_sql_select_$widget</strong>: <em style="color: #cc0000;">$select, $instance</em>, <em style="color: #0000cc;">$select</em> filter for modifying select part of the sql query.</li>
+        <li><strong>gdsw_sql_from_$widget</strong>: <em style="color: #cc0000;">$from, $instance</em>, <em style="color: #0000cc;">$select</em> filter for modifying from part of the sql query.</li>
+        <li><strong>gdsw_sql_where_$widget</strong>: <em style="color: #cc0000;">$where, $instance</em>, <em style="color: #0000cc;">$select</em> filter for modifying where part of the sql query.</li>
+        <li><strong>gdsw_sql_group_$widget</strong>: <em style="color: #cc0000;">$group, $instance</em>, <em style="color: #0000cc;">$select</em> filter for modifying group part of the sql query.</li>
+        <li><strong>gdsw_sql_order_$widget</strong>: <em style="color: #cc0000;">$order, $instance</em>, <em style="color: #0000cc;">$select</em> filter for modifying order part of the sql query.</li>
+        <li><strong>gdsw_sql_limit_$widget</strong>: <em style="color: #cc0000;">$limit, $instance</em>, <em style="color: #0000cc;">$select</em> filter for modifying limit part of the sql query.</li>
+    </ul>
+    <p>Values for $widget:</p>
+    <ul>
+        <li>futureposts: for GDSW Future Posts widget</li>
+        <li>mostcommented: for GDSW Most Commented widget</li>
+        <li>popularposts: for GDSW Popular Posts widget</li>
+        <li>postsauthors: for GDSW Posts Authors widget</li>
+        <li>randomposts: for GDSW Random Posts widget</li>
+        <li>recentcomments: for GDSW Recent Comments widget</li>
+        <li>recentposts: for GDSW Recent Posts widget</li>
+        <li>relatedposts: for GDSW Related Posts widget</li>
+        <li>simple125ads for GDSW Simple 125 Ads widget</li>
+    </ul>
+</div>
+</div>
+</body>
+</html>

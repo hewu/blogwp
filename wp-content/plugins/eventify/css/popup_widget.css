@@ -1,0 +1,81 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+#boxes #dialog {
+  width:400px; 
+  height:433px;
+  padding:10px;
+  background-color:#ffffff;
+}
+
+
+.event_title
+{
+	float:left;
+	clear:both;
+	font-size:30px;
+		padding:10px;
+	font-weight:bolder;
+}
+
+#eventifydetails
+{
+	width:380px;
+	height:433px;
+	margin:0 auto;
+	font-family:arial,verdana,serif;
+	font-size:14px;
+	
+}
+
+.ajxloader
+{
+	margin:auto;
+	border:none;
+	position:relative;
+		
+	height:20px;
+	width:32px;
+	
+}
+
+.event_description
+{
+	float:left;
+	clear:both;
+	font-size:20px;
+		padding:10px;
+}
+
+.event_venue
+{
+	float:left;
+	clear:both;
+	font-size:20px;
+		padding:10px;
+}
+
+.event_time
+{
+	float:left;
+	clear:both;
+	font-size:20px;
+	padding:10px;
+}

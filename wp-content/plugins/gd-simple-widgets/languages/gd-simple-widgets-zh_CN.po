@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-10-21 09:16+0800\n"
+"Last-Translator: \n"
+"Language-Team:  <awuitcn@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+
+#: admin/info.php:3
+msgid "Info"
+msgstr "信息"
+
+#: admin/info.php:7
+msgid "Version"
+msgstr "版本"
+
+#: admin/info.php:8
+msgid "release date"
+msgstr "发布日期"
+
+#: admin/info.php:12
+msgid "Change Log"
+msgstr "更新日志"
+
+#: admin/info.php:13
+msgid "detailed list of changes"
+msgstr "详细的更新列表"
+
+#: admin/info.php:14
+msgid "show"
+msgstr "查看"
+
+#: admin/info.php:18
+msgid "Links"
+msgstr "相关链接"
+
+#: admin/info.php:23
+msgid "official plugin page"
+msgstr "插件官方页面"
+
+#: admin/info.php:24
+#: admin/info.php:29
+#: admin/info.php:34
+#: admin/info.php:39
+#: admin/info.php:63
+#: admin/info.php:68
+#: admin/info.php:73
+#: admin/info.php:78
+#: admin/info.php:83
+msgid "visit"
+msgstr "访问"
+
+#: admin/info.php:28
+msgid "discussions group"
+msgstr "讨论小组"
+
+#: admin/info.php:33
+msgid "wordpress plugin page"
+msgstr "wordpress插件页面"
+
+#: admin/info.php:37
+msgid "Donate"
+msgstr "捐助"
+
+#: admin/info.php:38
+msgid "help further development"
+msgstr "赞助作者开发"
+
+#: admin/info.php:43
+msgid "Pro Edition"
+msgstr "专业版"
+
+#: admin/info.php:47
+#: admin/info.php:61
+msgid "Official Website"
+msgstr "官方网站"
+
+#: admin/info.php:48
+msgid "extended premium version"
+msgstr "扩展的高级版本"
+
+#: admin/info.php:62
+msgid "golden dragon official web portal"
+msgstr "golden dragon official web portal"
+
+#: admin/info.php:67
+msgid "a wordpress rating system"
+msgstr "a wordpress rating system"
+
+#: admin/info.php:72
+msgid "wordpress development"
+msgstr "wordpress development"
+
+#: admin/info.php:76
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: admin/info.php:77
+msgid "development discussion forum"
+msgstr "development discussion forum"
+
+#: admin/info.php:82
+msgid "announcements and theme demo"
+msgstr "announcements and theme demo"
+
+#: admin/panel.php:8
+msgid "collection of simple sidebar widgets"
+msgstr "边栏小工具的集合"
+
+#: admin/settings.php:2
+msgid "Available Widgets"
+msgstr "可用的小工具"
+
+#: admin/settings.php:4
+#: admin/settings.php:64
+msgid "Unchecked widgets will not be available on the Widgets panel."
+msgstr "未选中的小工具在边栏是不可用的."
+
+#: admin/settings.php:51
+msgid "is required."
+msgstr "是必需的."
+
+#: admin/settings.php:57
+#: admin/settings.php:80
+#: admin/settings.php:102
+msgid "Save"
+msgstr "保存"
+
+#: admin/settings.php:62
+msgid "Default WordPress Widgets"
+msgstr "默认的WordPress小工具"
+
+#: admin/settings.php:85
+msgid "Other Settings"
+msgstr "其他设置"
+
+#: admin/settings.php:90
+msgid "Load default CSS file"
+msgstr "加载默认的CSS文件"
+
+#: admin/settings.php:95
+msgid "Write debug info into file"
+msgstr "写入调试信息到文件"
+
+#: widgets/gdsw-future-posts/basic.php:2
+#: widgets/gdsw-most-commented/basic.php:2
+#: widgets/gdsw-popular-posts/basic.php:2
+#: widgets/gdsw-random-posts/basic.php:2
+#: widgets/gdsw-recent-posts/basic.php:2
+#: widgets/gdsw-related-posts/basic.php:2
+msgid "Posts to show"
+msgstr "显示文章数"
+
+#: widgets/gdsw-future-posts/basic.php:8
+#: widgets/gdsw-most-commented/basic.php:8
+#: widgets/gdsw-popular-posts/basic.php:8
+#: widgets/gdsw-posts-authors/basic.php:8
+#: widgets/gdsw-random-posts/basic.php:8
+#: widgets/gdsw-recent-comments/basic.php:8
+#: widgets/gdsw-recent-posts/basic.php:8
+#: widgets/gdsw-related-posts/basic.php:8
+msgid "Hide widget if no results found"
+msgstr "如果没有文章自动隐藏小工具"
+
+#: widgets/gdsw-future-posts/display.php:2
+#: widgets/gdsw-most-commented/display.php:2
+#: widgets/gdsw-popular-posts/display.php:2
+#: widgets/gdsw-posts-authors/display.php:2
+#: widgets/gdsw-random-posts/display.php:2
+#: widgets/gdsw-recent-comments/display.php:2
+#: widgets/gdsw-recent-posts/display.php:2
+#: widgets/gdsw-related-posts/display.php:2
+#: widgets/gdsw-simple-125-ads/display.php:2
+msgid "Additional CSS class"
+msgstr "附加的CSS类"
+
+#: widgets/gdsw-future-posts/display.php:6
+#: widgets/gdsw-popular-posts/display.php:12
+#: widgets/gdsw-random-posts/display.php:6
+#: widgets/gdsw-recent-posts/display.php:6
+#: widgets/gdsw-related-posts/display.php:6
+msgid "Short excerpt from the post"
+msgstr "显示文章短的摘要"
+
+#: widgets/gdsw-future-posts/display.php:12
+#: widgets/gdsw-popular-posts/display.php:18
+#: widgets/gdsw-random-posts/display.php:12
+#: widgets/gdsw-recent-posts/display.php:12
+#: widgets/gdsw-related-posts/display.php:12
+msgid "Excerpt words limit"
+msgstr "摘要字数限制:"
+
+#: widgets/gdsw-future-posts/display.php:16
+#: widgets/gdsw-popular-posts/display.php:22
+#: widgets/gdsw-random-posts/display.php:16
+#: widgets/gdsw-recent-posts/display.php:16
+#: widgets/gdsw-related-posts/display.php:16
+msgid "Display post date"
+msgstr "显示文章日期"
+
+#: widgets/gdsw-future-posts/display.php:22
+#: widgets/gdsw-popular-posts/display.php:28
+#: widgets/gdsw-random-posts/display.php:22
+#: widgets/gdsw-recent-posts/display.php:22
+#: widgets/gdsw-related-posts/display.php:22
+msgid "Post date format"
+msgstr "文章日期格式"
+
+#: widgets/gdsw-future-posts/filter.php:2
+#: widgets/gdsw-most-commented/filter.php:13
+#: widgets/gdsw-popular-posts/filter.php:25
+#: widgets/gdsw-posts-authors/filter.php:2
+#: widgets/gdsw-random-posts/filter.php:24
+#: widgets/gdsw-recent-comments/filter.php:12
+#: widgets/gdsw-recent-posts/filter.php:2
+msgid "Filter by category"
+msgstr "按分类筛选"
+
+#: widgets/gdsw-future-posts/filter.php:7
+#: widgets/gdsw-most-commented/filter.php:17
+#: widgets/gdsw-popular-posts/filter.php:29
+#: widgets/gdsw-posts-authors/filter.php:6
+#: widgets/gdsw-random-posts/filter.php:28
+#: widgets/gdsw-recent-comments/filter.php:16
+#: widgets/gdsw-recent-posts/filter.php:6
+msgid "comma separated list of category ids"
+msgstr "多个分类ID之间用逗号隔开"
+
+#: widgets/gdsw-future-posts/filter.php:8
+#: widgets/gdsw-most-commented/filter.php:18
+#: widgets/gdsw-popular-posts/filter.php:30
+#: widgets/gdsw-posts-authors/filter.php:7
+#: widgets/gdsw-random-posts/filter.php:29
+#: widgets/gdsw-recent-comments/filter.php:17
+#: widgets/gdsw-recent-posts/filter.php:7
+msgid "leave empty to include all categories"
+msgstr "留空则包含所有的分类"
+
+#: widgets/gdsw-most-commented/display.php:6
+msgid "Show comments count"
+msgstr "显示评论数"
+
+#: widgets/gdsw-most-commented/filter.php:2
+msgid "Filter by post publish date"
+msgstr "按发布日期筛选"
+
+#: widgets/gdsw-most-commented/filter.php:5
+msgid "All posts"
+msgstr "所有文章"
+
+#: widgets/gdsw-most-commented/filter.php:6
+#: widgets/gdsw-popular-posts/filter.php:8
+#: widgets/gdsw-random-posts/filter.php:7
+msgid "Last week"
+msgstr "最近一周"
+
+#: widgets/gdsw-most-commented/filter.php:7
+#: widgets/gdsw-popular-posts/filter.php:9
+#: widgets/gdsw-random-posts/filter.php:8
+msgid "Last month"
+msgstr "最近一个月"
+
+#: widgets/gdsw-most-commented/filter.php:8
+#: widgets/gdsw-popular-posts/filter.php:10
+#: widgets/gdsw-random-posts/filter.php:9
+msgid "Last year"
+msgstr "最近一年"
+
+#: widgets/gdsw-popular-posts/display.php:6
+msgid "Show number of views"
+msgstr "显示查看数"
+
+#: widgets/gdsw-popular-posts/filter.php:2
+#: widgets/gdsw-random-posts/filter.php:2
+msgid "Filter by date"
+msgstr "按日期筛选"
+
+#: widgets/gdsw-popular-posts/filter.php:5
+#: widgets/gdsw-random-posts/filter.php:5
+msgid "All time"
+msgstr "所的"
+
+#: widgets/gdsw-popular-posts/filter.php:6
+msgid "Today only"
+msgstr "仅今天"
+
+#: widgets/gdsw-popular-posts/filter.php:7
+#: widgets/gdsw-random-posts/filter.php:6
+msgid "Last 24 hours"
+msgstr "最近24小时"
+
+#: widgets/gdsw-popular-posts/filter.php:15
+#: widgets/gdsw-random-posts/filter.php:14
+#: widgets/gdsw-recent-comments/filter.php:2
+msgid "Filter by type"
+msgstr "按类型筛选"
+
+#: widgets/gdsw-popular-posts/filter.php:18
+#: widgets/gdsw-random-posts/filter.php:17
+msgid "Both posts and pages"
+msgstr "文章和页面"
+
+#: widgets/gdsw-popular-posts/filter.php:19
+#: widgets/gdsw-random-posts/filter.php:18
+msgid "Only posts"
+msgstr "仅文章"
+
+#: widgets/gdsw-popular-posts/filter.php:20
+#: widgets/gdsw-random-posts/filter.php:19
+msgid "Only pages"
+msgstr "仅页面"
+
+#: widgets/gdsw-popular-posts/filter.php:31
+msgid "using this will eliminate all pages from results"
+msgstr "使用这个将会在搜索中除去所有的页面"
+
+#: widgets/gdsw-popular-posts/filter.php:35
+msgid "Include views from"
+msgstr "包括查看数来自于"
+
+#: widgets/gdsw-popular-posts/filter.php:38
+msgid "Both users and visitors"
+msgstr "用户和游客"
+
+#: widgets/gdsw-popular-posts/filter.php:39
+msgid "Only users"
+msgstr "仅用户"
+
+#: widgets/gdsw-popular-posts/filter.php:40
+msgid "Only visitors"
+msgstr "仅游客"
+
+#: widgets/gdsw-posts-authors/basic.php:2
+msgid "Authors to show"
+msgstr "显示的作者数"
+
+#: widgets/gdsw-posts-authors/display.php:6
+#: widgets/gdsw-recent-comments/display.php:6
+msgid "Display author's gravatar"
+msgstr "显示作者的头像"
+
+#: widgets/gdsw-posts-authors/display.php:12
+#: widgets/gdsw-recent-comments/display.php:12
+msgid "Gravatar dimension (px)"
+msgstr "头像大小(px)"
+
+#: widgets/gdsw-posts-authors/display.php:16
+msgid "Show posts count"
+msgstr "显示文章数"
+
+#: widgets/gdsw-posts-authors/display.php:22
+msgid "Show author's full name"
+msgstr "查看作者的全名"
+
+#: widgets/gdsw-posts-authors/filter.php:11
+msgid "Minimum published posts"
+msgstr "至少发布的文章数"
+
+#: widgets/gdsw-recent-comments/basic.php:2
+msgid "Comments to show"
+msgstr "评论显示数:"
+
+#: widgets/gdsw-recent-comments/filter.php:5
+msgid "Comments only"
+msgstr "仅评论"
+
+#: widgets/gdsw-recent-comments/filter.php:6
+msgid "Pings only"
+msgstr "仅Pings"
+
+#: widgets/gdsw-recent-comments/filter.php:7
+msgid "Comments and pings"
+msgstr "评论和Pings"
+
+#: widgets/gdsw-related-posts/basic.php:14
+msgid "Show only on single post page"
+msgstr "仅仅在单个文章页面显示"
+
+#: widgets/gdsw-related-posts/filter.php:2
+msgid "Use to get relations"
+msgstr "获取相关日志方式"
+
+#: widgets/gdsw-related-posts/filter.php:5
+msgid "Tags and Categories"
+msgstr "标签和分类"
+
+#: widgets/gdsw-related-posts/filter.php:6
+msgid "Categories only"
+msgstr "仅分类"
+
+#: widgets/gdsw-related-posts/filter.php:7
+msgid "Tags only"
+msgstr "仅标签"
+
+#: widgets/gdsw-simple-125-ads/filter.php:2
+msgid "Ad left"
+msgstr "左边AD"
+
+#: widgets/gdsw-simple-125-ads/filter.php:6
+msgid "Ad right"
+msgstr "右边AD"
+
+#: widgets/shared/shared.php:2
+msgid "Title"
+msgstr "标题"
+
+#: widgets/shared/shared.php:7
+msgid "leave empty to skip rendering title"
+msgstr "留空则使用默认的标题"
+
+#: widgets/gdsw-future-posts.php:18
+msgid "Display scheduled posts."
+msgstr "显示计划的文章."
+
+#: widgets/gdsw-most-commented.php:15
+msgid "Most commented posts."
+msgstr "最多评论的文章."
+
+#: widgets/gdsw-popular-posts.php:21
+msgid "Display popular posts."
+msgstr "显示热门文章."
+
+#: widgets/gdsw-popular-posts.php:123
+msgid "view"
+msgstr "查看"
+
+#: widgets/gdsw-popular-posts.php:123
+msgid "views"
+msgstr "查看数"
+
+#: widgets/gdsw-posts-authors.php:18
+msgid "List of posts authors."
+msgstr "文章作者列表"
+
+#: widgets/gdsw-random-posts.php:20
+msgid "Display random posts."
+msgstr "显示随机文章"
+
+#: widgets/gdsw-recent-comments.php:16
+msgid "Expanded widget with recent comments."
+msgstr "最近评论的扩展小工具"
+
+#: widgets/gdsw-recent-posts.php:17
+msgid "Expanded widget with recent posts."
+msgstr "最新文章的扩展小工具"
+
+#: widgets/gdsw-related-posts.php:19
+msgid "Display related posts."
+msgstr "显示相关文章."
+
+#: widgets/gdsw-simple-125-ads.php:14
+msgid "Display two 125x125 ads."
+msgstr "显示两个125x125的广告."
+
+#: gd-simple-widgets.php:157
+msgid "Settings"
+msgstr "设置"
+

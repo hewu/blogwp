@@ -1,0 +1,447 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD Simple Widgets\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniel Frużyński <daniel [A-T] poradnik-webmastera.com>\n"
+"Language-Team: Daniel Fruzynski <daniel [A-T] poradnik-webmastera.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin/info.php:3
+msgid "Info"
+msgstr "Informacje"
+
+#: admin/info.php:7
+msgid "Version"
+msgstr "Wersja"
+
+#: admin/info.php:8
+msgid "release date"
+msgstr "data opublikowania"
+
+#: admin/info.php:12
+msgid "Change Log"
+msgstr "Log zmian"
+
+#: admin/info.php:13
+msgid "detailed list of changes"
+msgstr "szczegółowa lista zmian"
+
+#: admin/info.php:14
+msgid "show"
+msgstr "pokaż"
+
+#: admin/info.php:18
+msgid "Links"
+msgstr "Linki"
+
+#: admin/info.php:23
+msgid "official plugin page"
+msgstr "oficjalna strona pluginu"
+
+#: admin/info.php:24
+#: admin/info.php:29
+#: admin/info.php:34
+#: admin/info.php:39
+#: admin/info.php:63
+#: admin/info.php:68
+#: admin/info.php:73
+#: admin/info.php:78
+#: admin/info.php:83
+msgid "visit"
+msgstr "odwiedź"
+
+#: admin/info.php:28
+msgid "discussions group"
+msgstr "grupa dyskusyjna"
+
+#: admin/info.php:33
+msgid "wordpress plugin page"
+msgstr "strona pluginu na wordpress"
+
+#: admin/info.php:37
+msgid "Donate"
+msgstr "Ofiara"
+
+#: admin/info.php:38
+msgid "help further development"
+msgstr "wspomóż dalszy rozwój"
+
+#: admin/info.php:43
+msgid "Pro Edition"
+msgstr "Wersja Pro"
+
+#: admin/info.php:47
+#: admin/info.php:61
+msgid "Official Website"
+msgstr "Oficjalna strona"
+
+#: admin/info.php:48
+msgid "extended premium version"
+msgstr "rozszerz do wersji premium"
+
+#: admin/info.php:62
+msgid "golden dragon official web portal"
+msgstr "oficjalny portal golden dragon"
+
+#: admin/info.php:67
+msgid "a wordpress rating system"
+msgstr "system ocen dla wordpress'a"
+
+#: admin/info.php:72
+msgid "wordpress development"
+msgstr "rozwój wordpress'a"
+
+#: admin/info.php:76
+msgid "Support Forum"
+msgstr "Forum wsparcia"
+
+#: admin/info.php:77
+msgid "development discussion forum"
+msgstr "forum dyskusyjne programistów"
+
+#: admin/info.php:82
+msgid "announcements and theme demo"
+msgstr "ogłoszenia i demo motywu"
+
+#: admin/panel.php:3
+msgid "collection of simple sidebar widgets"
+msgstr "kolekcja prostych widgetów"
+
+#: admin/settings.php:2
+msgid "Available Widgets"
+msgstr "Dostępne widgety"
+
+#: admin/settings.php:4
+#: admin/settings.php:54
+msgid "Unchecked widgets will not be available on the Widgets panel."
+msgstr "Odznaczone widgety nie będą dostępne na stronie konfiguracji widgetów."
+
+#: admin/settings.php:41
+msgid "is required."
+msgstr "jest wymagany."
+
+#: admin/settings.php:47
+#: admin/settings.php:70
+#: admin/settings.php:92
+msgid "Save"
+msgstr "Zapisz"
+
+#: admin/settings.php:52
+msgid "Default WordPress Widgets"
+msgstr "Domyślne widgety WordPress"
+
+#: admin/settings.php:75
+msgid "Other Settings"
+msgstr "Inne ustawienia"
+
+#: admin/settings.php:80
+msgid "Load default CSS file"
+msgstr "Załaduj domyślny plik CSS"
+
+#: admin/settings.php:85
+msgid "Write debug info into file"
+msgstr "Zapisuj informacje debugowania do pliku"
+
+#: widgets/gdsw-future-posts/basic.php:2
+#: widgets/gdsw-most-commented/basic.php:2
+#: widgets/gdsw-popular-posts/basic.php:2
+#: widgets/gdsw-posts-authors/basic.php:2
+#: widgets/gdsw-random-posts/basic.php:2
+#: widgets/gdsw-recent-comments/basic.php:2
+#: widgets/gdsw-recent-posts/basic.php:2
+#: widgets/gdsw-related-posts/basic.php:2
+msgid "Title"
+msgstr "Tytuł"
+
+#: widgets/gdsw-future-posts/basic.php:6
+#: widgets/gdsw-most-commented/basic.php:6
+#: widgets/gdsw-popular-posts/basic.php:6
+#: widgets/gdsw-random-posts/basic.php:6
+#: widgets/gdsw-recent-posts/basic.php:6
+#: widgets/gdsw-related-posts/basic.php:6
+msgid "Posts to show"
+msgstr "Wpisy do wyświetlenia"
+
+#: widgets/gdsw-future-posts/basic.php:12
+#: widgets/gdsw-most-commented/basic.php:12
+#: widgets/gdsw-popular-posts/basic.php:12
+#: widgets/gdsw-posts-authors/basic.php:12
+#: widgets/gdsw-random-posts/basic.php:12
+#: widgets/gdsw-recent-comments/basic.php:12
+#: widgets/gdsw-recent-posts/basic.php:12
+#: widgets/gdsw-related-posts/basic.php:12
+msgid "Hide widget if no results found"
+msgstr "Ukryj widget jeżeli nie ma nic do wyświetlenia"
+
+#: widgets/gdsw-future-posts/display.php:2
+#: widgets/gdsw-most-commented/display.php:2
+#: widgets/gdsw-popular-posts/display.php:2
+#: widgets/gdsw-posts-authors/display.php:2
+#: widgets/gdsw-random-posts/display.php:2
+#: widgets/gdsw-recent-comments/display.php:2
+#: widgets/gdsw-recent-posts/display.php:2
+#: widgets/gdsw-related-posts/display.php:2
+msgid "Additional CSS class"
+msgstr "Dodatkowa klasa CSS"
+
+#: widgets/gdsw-future-posts/display.php:6
+#: widgets/gdsw-popular-posts/display.php:12
+#: widgets/gdsw-random-posts/display.php:6
+#: widgets/gdsw-recent-posts/display.php:6
+#: widgets/gdsw-related-posts/display.php:6
+msgid "Short excerpt from the post"
+msgstr "Pokazuj fragment wpisu"
+
+#: widgets/gdsw-future-posts/display.php:12
+#: widgets/gdsw-popular-posts/display.php:18
+#: widgets/gdsw-random-posts/display.php:12
+#: widgets/gdsw-recent-posts/display.php:12
+#: widgets/gdsw-related-posts/display.php:12
+msgid "Excerpt words limit"
+msgstr "Limit długości fragmentu w słowach"
+
+#: widgets/gdsw-future-posts/display.php:16
+#: widgets/gdsw-popular-posts/display.php:22
+#: widgets/gdsw-random-posts/display.php:16
+#: widgets/gdsw-recent-posts/display.php:16
+#: widgets/gdsw-related-posts/display.php:16
+msgid "Display post date"
+msgstr "Pokaż datę wpisu"
+
+#: widgets/gdsw-future-posts/display.php:22
+#: widgets/gdsw-popular-posts/display.php:28
+#: widgets/gdsw-random-posts/display.php:22
+#: widgets/gdsw-recent-posts/display.php:22
+#: widgets/gdsw-related-posts/display.php:22
+msgid "Post date format"
+msgstr "Format daty wpisu"
+
+#: widgets/gdsw-future-posts/filter.php:2
+#: widgets/gdsw-most-commented/filter.php:13
+#: widgets/gdsw-popular-posts/filter.php:25
+#: widgets/gdsw-posts-authors/filter.php:2
+#: widgets/gdsw-random-posts/filter.php:24
+#: widgets/gdsw-recent-comments/filter.php:12
+#: widgets/gdsw-recent-posts/filter.php:2
+#: widgets/gdsw-related-posts/filter.php:24
+msgid "Filter by category"
+msgstr "Filtruj wg kategorii"
+
+#: widgets/gdsw-future-posts/filter.php:6
+#: widgets/gdsw-most-commented/filter.php:17
+#: widgets/gdsw-popular-posts/filter.php:29
+#: widgets/gdsw-posts-authors/filter.php:6
+#: widgets/gdsw-random-posts/filter.php:28
+#: widgets/gdsw-recent-comments/filter.php:16
+#: widgets/gdsw-recent-posts/filter.php:6
+#: widgets/gdsw-related-posts/filter.php:28
+msgid "comma separated list of category ids"
+msgstr "lista id kategorii rozdzielona przecinkami"
+
+#: widgets/gdsw-future-posts/filter.php:7
+#: widgets/gdsw-most-commented/filter.php:18
+#: widgets/gdsw-popular-posts/filter.php:30
+#: widgets/gdsw-posts-authors/filter.php:7
+#: widgets/gdsw-random-posts/filter.php:29
+#: widgets/gdsw-recent-comments/filter.php:17
+#: widgets/gdsw-recent-posts/filter.php:7
+#: widgets/gdsw-related-posts/filter.php:29
+msgid "leave empty to include all categories"
+msgstr "pozostaw puste aby użyć wszystkich kategorii"
+
+#: widgets/gdsw-most-commented/display.php:6
+msgid "Show comments count"
+msgstr "Pokaż ilość komentarzy"
+
+#: widgets/gdsw-most-commented/filter.php:2
+msgid "Filter by post publish date"
+msgstr "Filtruj po dacie publikacji wpisu"
+
+#: widgets/gdsw-most-commented/filter.php:5
+msgid "All posts"
+msgstr "Wszystkie wpisy"
+
+#: widgets/gdsw-most-commented/filter.php:6
+#: widgets/gdsw-popular-posts/filter.php:8
+#: widgets/gdsw-random-posts/filter.php:7
+#: widgets/gdsw-related-posts/filter.php:7
+msgid "Last week"
+msgstr "Ostatni tydzień"
+
+#: widgets/gdsw-most-commented/filter.php:7
+#: widgets/gdsw-popular-posts/filter.php:9
+#: widgets/gdsw-random-posts/filter.php:8
+#: widgets/gdsw-related-posts/filter.php:8
+msgid "Last month"
+msgstr "Ostatni miesiąc"
+
+#: widgets/gdsw-most-commented/filter.php:8
+#: widgets/gdsw-popular-posts/filter.php:10
+#: widgets/gdsw-random-posts/filter.php:9
+#: widgets/gdsw-related-posts/filter.php:9
+msgid "Last year"
+msgstr "Ostatni rok"
+
+#: widgets/gdsw-popular-posts/display.php:6
+msgid "Show number of views"
+msgstr "Pokaż ilość wyświetleń"
+
+#: widgets/gdsw-popular-posts/filter.php:2
+#: widgets/gdsw-random-posts/filter.php:2
+#: widgets/gdsw-related-posts/filter.php:2
+msgid "Filter by date"
+msgstr "Filtruj po dacie"
+
+#: widgets/gdsw-popular-posts/filter.php:5
+#: widgets/gdsw-random-posts/filter.php:5
+#: widgets/gdsw-related-posts/filter.php:5
+msgid "All time"
+msgstr "Cały czas"
+
+#: widgets/gdsw-popular-posts/filter.php:6
+msgid "Today only"
+msgstr "Tylko dzisiaj"
+
+#: widgets/gdsw-popular-posts/filter.php:7
+#: widgets/gdsw-random-posts/filter.php:6
+#: widgets/gdsw-related-posts/filter.php:6
+msgid "Last 24 hours"
+msgstr "Ostatnie 24 godziny"
+
+#: widgets/gdsw-popular-posts/filter.php:15
+#: widgets/gdsw-random-posts/filter.php:14
+#: widgets/gdsw-recent-comments/filter.php:2
+#: widgets/gdsw-related-posts/filter.php:14
+msgid "Filter by type"
+msgstr "Filtruj po typie"
+
+#: widgets/gdsw-popular-posts/filter.php:18
+#: widgets/gdsw-random-posts/filter.php:17
+#: widgets/gdsw-related-posts/filter.php:17
+msgid "Both posts and pages"
+msgstr "Wpisy i strony"
+
+#: widgets/gdsw-popular-posts/filter.php:19
+#: widgets/gdsw-random-posts/filter.php:18
+#: widgets/gdsw-related-posts/filter.php:18
+msgid "Only posts"
+msgstr "Tylko wpisy"
+
+#: widgets/gdsw-popular-posts/filter.php:20
+#: widgets/gdsw-random-posts/filter.php:19
+#: widgets/gdsw-related-posts/filter.php:19
+msgid "Only pages"
+msgstr "Tylko strony"
+
+#: widgets/gdsw-popular-posts/filter.php:31
+msgid "using this will eliminate all pages from results"
+msgstr "użycie tego wyeliminuje wszystkie strony z wyników"
+
+#: widgets/gdsw-popular-posts/filter.php:35
+msgid "Include views from"
+msgstr "Uwzględnij wyświetlenia"
+
+#: widgets/gdsw-popular-posts/filter.php:38
+msgid "Both users and visitors"
+msgstr "Użytkownicy i odwiedzający"
+
+#: widgets/gdsw-popular-posts/filter.php:39
+msgid "Only users"
+msgstr "Tylko użytkownicy"
+
+#: widgets/gdsw-popular-posts/filter.php:40
+msgid "Only visitors"
+msgstr "Tylko odwiedzający"
+
+#: widgets/gdsw-posts-authors/basic.php:6
+msgid "Authors to show"
+msgstr "Autorzy do pokazania"
+
+#: widgets/gdsw-posts-authors/display.php:6
+#: widgets/gdsw-recent-comments/display.php:6
+msgid "Display author's gravatar"
+msgstr "Pokaż grawatara autora"
+
+#: widgets/gdsw-posts-authors/display.php:12
+#: widgets/gdsw-recent-comments/display.php:12
+msgid "Gravatar dimension (px)"
+msgstr "Rozdzielczość grawatara (px)"
+
+#: widgets/gdsw-posts-authors/display.php:16
+msgid "Show posts count"
+msgstr "Pokaż ilość wpisów"
+
+#: widgets/gdsw-posts-authors/display.php:22
+msgid "Show author's full name"
+msgstr "Pokaż pełną nazwę autora"
+
+#: widgets/gdsw-posts-authors/filter.php:11
+msgid "Minimum published posts"
+msgstr "Minimalna ilość opublikowanych postów"
+
+#: widgets/gdsw-recent-comments/basic.php:6
+msgid "Comments to show"
+msgstr "Komentarze do pokazania"
+
+#: widgets/gdsw-recent-comments/filter.php:5
+msgid "Comments only"
+msgstr "Tylko komentarze"
+
+#: widgets/gdsw-recent-comments/filter.php:6
+msgid "Pings only"
+msgstr "Tylko pingi"
+
+#: widgets/gdsw-recent-comments/filter.php:7
+msgid "Comments and pings"
+msgstr "Komentarze i pingi"
+
+#: widgets/gdsw-future-posts.php:18
+msgid "Display scheduled posts."
+msgstr "Wyświetla zaplanowane wpisy."
+
+#: widgets/gdsw-most-commented.php:15
+msgid "Most commented posts."
+msgstr "Najmocniej komentowane wpisy."
+
+#: widgets/gdsw-popular-posts.php:21
+msgid "Display popular posts."
+msgstr "Wyświetla popularne wpisy."
+
+#: widgets/gdsw-popular-posts.php:116
+msgid "view"
+msgstr "pokaż"
+
+#: widgets/gdsw-popular-posts.php:116
+msgid "views"
+msgstr "wyświetlenia"
+
+#: widgets/gdsw-posts-authors.php:18
+msgid "List of posts authors."
+msgstr "Lista wpisów autorów."
+
+#: widgets/gdsw-random-posts.php:20
+msgid "Display random posts."
+msgstr "Wyświetla losowe wpisy."
+
+#: widgets/gdsw-recent-comments.php:16
+msgid "Expanded widget with recent comments."
+msgstr "Rozbudowany widget z ostatnimi komentarzami."
+
+#: widgets/gdsw-recent-posts.php:17
+msgid "Expanded widget with recent posts."
+msgstr "Rozbudowany widget z ostatnimi wpisami."
+
+#: widgets/gdsw-related-posts.php:13
+msgid "Display related posts."
+msgstr "Wyświetla powiązane wpisy."
+
+#: gd-simple-widgets.php:144
+msgid "Settings"
+msgstr "Ustawienia"
+

@@ -1,0 +1,6 @@
+.gdsw-widget td { vertical-align: top; }
+.gdsw-widget img { padding-right: 4px; }
+.gdsw-ad { width: 125px; height: 125px; background: transparent url(../gfx/125.png); margin: 0 5px; }
+.gdsw-left { float: left; }
+.gdsw-right { float: right; }
+.gdsw-clear { clear: both; }

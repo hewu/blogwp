@@ -1,0 +1,111 @@
+#visitor-movies-infowin,
+#visitor-movies-actionwin {
+	border:			2px solid #0f0;
+	background:		#cfc;
+	background:		rgba(172, 255, 172, 0.5);
+	position:		fixed;
+	width:			150px;
+	font-size:		10px;
+	line-height:	14px;
+	text-align:		center;
+	color:			#000 !important;
+}
+
+#visitor-movies-infowin {
+	top:			10px;
+	right:			10px;
+}
+#visitor-movies-actionwin {
+	top:			10px;
+	left:			10px;
+}
+#visitor-movies-flashwin {
+	position:		fixed;
+	top:			50%;
+	left:			50%;
+	width:			400px;
+	height:			100px;
+	margin-top:		-50px;
+	margin-left:	-200px;
+	font-size:		20px;
+	line-height:	100px;
+	text-align:		center;
+	display:		none;
+	background:		white;
+	background:		rgba(255, 255, 255, 0.5);
+	border:			4px solid #f00;
+	color:			#000 !important;
+}
+
+#visitor-movies-time-total,
+#visitor-movies-time-elapsed {
+	background:		white;
+	border:			1px solid black;
+	float:			left;
+	width:			70px;
+	color:			#000 !important;
+}
+
+#visitor-movies-time-elapsed {
+	float:			right;
+}
+
+#cursor,
+#click {
+	position:		absolute;
+	z-index:		9999;
+}
+#cursor {
+	z-index:		9998;
+}
+#click {
+	display:		none;
+}
+
+/* thanks content */
+#visitor-movies-thanks * {
+	margin:			0 !important;
+	padding:		0 !important;
+	border:			0 !important;
+	color:			black !important;
+}
+#visitor-movies-thanks {
+	position:		fixed !important;
+	top:			10px !important;
+	left:			50% !important;
+	margin-left:	-400px !important;
+
+	width:			760px !important;
+	padding:		10px 20px !important;
+
+	font-size:		16px !important;
+	line-height:	20px !important;
+	text-align:		left !important;
+
+	background:		white !important;
+	border:			4px solid #f00;
+
+	display:		none;
+
+	z-index:		1001;
+}
+#visitor-movies-thanks h1 {
+	font-size:		25px !important;
+	line-height:	30px !important;
+}
+#visitor-movies-thanks p {
+	margin:			20px 0 !important;
+}
+#visitor-movies-thanks ul {
+	list-style-type:	disc !important;
+	list-style-position:inside !important;
+	margin-left:		1em !important;
+}
+#visitor-movies-thanks a,
+#visitor-movies-thanks a:hover {
+	text-decoration:	underline !important;
+	color:				black !important;
+}
+#visitor-movies-thanks-close {
+	float:				right;
+}

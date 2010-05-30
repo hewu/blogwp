@@ -1,0 +1,18 @@
+#toplevel_page_database-table-manager-specialists-jcl_specialist-jcl_specialist .wp-menu-image,
+#toplevel_page_specialists-jcl_specialist-jcl_specialist .wp-menu-image
+{
+background-image:url(icon.png);
+}
+
+#toplevel_page_database-table-manager-specialists-jcl_specialist-jcl_specialist:hover .wp-menu-image,
+#toplevel_page_specialists-jcl_specialist-jcl_specialist:hover .wp-menu-image
+{
+background-image:url(iconc.png) !important;
+}
+
+#toplevel_page_database-table-manager-specialists-jcl_specialist-jcl_specialist.wp-menu-open div.wp-menu-image,
+#toplevel_page_specialists-jcl_specialist-jcl_specialist.wp-menu-open div.wp-menu-image
+{
+background-image:url(iconc.png) !important;
+}
+

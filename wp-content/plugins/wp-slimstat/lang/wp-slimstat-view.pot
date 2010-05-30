@@ -1,0 +1,584 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Slim Stat 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-14 15:37-0500\n"
+"PO-Revision-Date: 2010-05-14 15:44-0500\n"
+"Last-Translator: Camu <info@duechiacchiere.it>\n"
+"Language-Team: due chiacchiere <info@duechiacchiere.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: s\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:20
+msgid "Dashboard"
+msgstr ""
+
+#: index.php:21
+msgid "Visitors"
+msgstr ""
+
+#: index.php:22
+msgid "Traffic Sources"
+msgstr ""
+
+#: index.php:23
+msgid "Content"
+msgstr ""
+
+#: index.php:24
+msgid "Raw Data"
+msgstr ""
+
+#: index.php:25
+msgid "Custom Reports"
+msgstr ""
+
+#: index.php:64
+msgid "Current filters:"
+msgstr ""
+
+#: index.php:107
+msgid "Filter pageviews where"
+msgstr ""
+
+#: index.php:109
+#: panel5.php:33
+msgid "Browser"
+msgstr ""
+
+#: index.php:110
+msgid "Browser version"
+msgstr ""
+
+#: index.php:111
+msgid "CSS version"
+msgstr ""
+
+#: index.php:112
+msgid "Country Code"
+msgstr ""
+
+#: index.php:113
+#: panel5.php:36
+msgid "Domain"
+msgstr ""
+
+#: index.php:114
+#: panel5.php:37
+msgid "IP"
+msgstr ""
+
+#: index.php:115
+#: panel5.php:38
+msgid "Keywords"
+msgstr ""
+
+#: index.php:116
+msgid "Language Code"
+msgstr ""
+
+#: index.php:117
+#: panel5.php:40
+msgid "Operating System"
+msgstr ""
+
+#: index.php:118
+#: panel5.php:41
+msgid "Permalink"
+msgstr ""
+
+#: index.php:119
+msgid "Referer"
+msgstr ""
+
+#: index.php:120
+#: panel5.php:43
+msgid "Screen Resolution"
+msgstr ""
+
+#: index.php:123
+msgid "Is equal to"
+msgstr ""
+
+#: index.php:124
+msgid "Contains"
+msgstr ""
+
+#: index.php:125
+msgid "Does not contain"
+msgstr ""
+
+#: index.php:126
+msgid "Starts with"
+msgstr ""
+
+#: index.php:127
+msgid "Ends with"
+msgstr ""
+
+#: index.php:130
+msgid "Filter by date"
+msgstr ""
+
+#: index.php:131
+msgid "Day"
+msgstr ""
+
+#: index.php:141
+msgid "Month"
+msgstr ""
+
+#: index.php:147
+msgid "Year"
+msgstr ""
+
+#: index.php:154
+#: panel5.php:52
+msgid "Go"
+msgstr ""
+
+#: index.php:158
+msgid "reset"
+msgstr ""
+
+#: panel1.php:12
+msgid "Pageviews by day - Click on a day for hourly metrics"
+msgstr ""
+
+#: panel1.php:15
+msgid "Pageviews by hour"
+msgstr ""
+
+#: panel1.php:20
+#: panel1.php:82
+#: panel1.php:106
+#: panel1.php:136
+#: panel1.php:163
+#: panel1.php:188
+#: panel2.php:20
+#: panel2.php:65
+#: panel2.php:90
+#: panel2.php:115
+#: panel2.php:143
+#: panel2.php:166
+#: panel2.php:192
+#: panel2.php:216
+#: panel2.php:239
+#: panel2.php:284
+#: panel2.php:310
+#: panel3.php:13
+#: panel3.php:58
+#: panel3.php:88
+#: panel3.php:118
+#: panel3.php:149
+#: panel3.php:178
+#: panel3.php:203
+#: panel4.php:20
+#: panel4.php:41
+#: panel4.php:68
+#: panel4.php:100
+#: panel4.php:128
+#: panel4.php:157
+#: panel4.php:182
+#: panel4.php:212
+#: panel4.php:242
+#: panel4.php:282
+#: panel5.php:73
+msgid "No data to display"
+msgstr ""
+
+#: panel1.php:34
+msgid "About WP-SlimStat"
+msgstr ""
+
+#: panel1.php:36
+msgid "Total Hits"
+msgstr ""
+
+#: panel1.php:37
+msgid "Data Size"
+msgstr ""
+
+#: panel1.php:38
+msgid "Tracking Active"
+msgstr ""
+
+#: panel1.php:39
+msgid "Auto purge"
+msgstr ""
+
+#: panel1.php:49
+#: panel2.php:35
+#: panel3.php:35
+msgid "Summary for"
+msgstr ""
+
+#: panel1.php:61
+#: wp-slimstat-view.php:389
+#: wp-slimstat-view.php:674
+msgid "Pageviews"
+msgstr ""
+
+#: panel1.php:62
+#: wp-slimstat-view.php:389
+#: wp-slimstat-view.php:674
+msgid "Unique IPs"
+msgstr ""
+
+#: panel1.php:63
+#: wp-slimstat-view.php:287
+msgid "Avg Pageviews"
+msgstr ""
+
+#: panel1.php:65
+#: panel1.php:66
+msgid "On"
+msgstr ""
+
+#: panel1.php:67
+msgid "Last Month"
+msgstr ""
+
+#: panel1.php:75
+#: panel1.php:99
+#: panel1.php:129
+#: panel1.php:156
+#: panel1.php:180
+#: panel2.php:108
+#: panel2.php:135
+#: panel2.php:159
+#: panel2.php:184
+#: panel2.php:209
+#: panel2.php:277
+#: panel2.php:302
+#: panel3.php:51
+#: panel3.php:76
+#: panel3.php:106
+#: panel3.php:142
+#: panel3.php:167
+#: panel3.php:196
+#: panel4.php:34
+#: panel4.php:61
+#: panel4.php:93
+#: panel4.php:117
+#: panel4.php:150
+#: panel4.php:175
+#: panel4.php:200
+#: panel4.php:234
+#: panel4.php:275
+msgid "More"
+msgstr ""
+
+#: panel1.php:76
+msgid "User agents"
+msgstr ""
+
+#: panel1.php:100
+msgid "Popular pages of all time"
+msgstr ""
+
+#: panel1.php:111
+#: panel1.php:194
+#: panel2.php:322
+#: panel3.php:125
+#: panel4.php:76
+#: panel4.php:133
+#: panel4.php:217
+#: panel4.php:258
+#, php-format
+msgid "Open %s in a new window"
+msgstr ""
+
+#: panel1.php:130
+msgid "Recent Keywords"
+msgstr ""
+
+#: panel1.php:157
+msgid "Recent Countries"
+msgstr ""
+
+#: panel1.php:167
+#: panel2.php:289
+#: panel2.php:315
+#: panel3.php:93
+#: panel4.php:247
+#: panel5.php:78
+msgid "c-"
+msgstr ""
+
+#: panel1.php:181
+msgid "Traffic Sources Overview"
+msgstr ""
+
+#: panel2.php:12
+msgid "Unique (human) visitors by day - Click on a day for hourly metrics"
+msgstr ""
+
+#: panel2.php:15
+msgid "Unique (human) visitors by hour"
+msgstr ""
+
+#: panel2.php:47
+msgid "Human visitors"
+msgstr ""
+
+#: panel2.php:48
+msgid "One time visitors"
+msgstr ""
+
+#: panel2.php:49
+msgid "Bounce rate"
+msgstr ""
+
+#: panel2.php:50
+msgid "Bots"
+msgstr ""
+
+#: panel2.php:51
+msgid "Pages per visit"
+msgstr ""
+
+#: panel2.php:52
+#: wp-slimstat-view.php:287
+msgid "Longest visit"
+msgstr ""
+
+#: panel2.php:59
+msgid "Languages"
+msgstr ""
+
+#: panel2.php:71
+#: panel2.php:95
+#: panel5.php:77
+msgid "l-"
+msgstr ""
+
+#: panel2.php:84
+msgid "Languages - Just Visitors"
+msgstr ""
+
+#: panel2.php:109
+msgid "IP Addresses and Domains"
+msgstr ""
+
+#: panel2.php:136
+msgid "Recent Browsers"
+msgstr ""
+
+#: panel2.php:160
+msgid "Operating Systems"
+msgstr ""
+
+#: panel2.php:185
+msgid "Browsers and Operating Systems"
+msgstr ""
+
+#: panel2.php:210
+msgid "Screen Resolutions"
+msgstr ""
+
+#: panel2.php:233
+msgid "Screen Resolutions with colordepth"
+msgstr ""
+
+#: panel2.php:255
+#: panel5.php:42
+msgid "Plugins"
+msgstr ""
+
+#: panel2.php:265
+msgid "Flash"
+msgstr ""
+
+#: panel2.php:266
+msgid "Silverlight"
+msgstr ""
+
+#: panel2.php:267
+msgid "Acrobat"
+msgstr ""
+
+#: panel2.php:268
+msgid "Java"
+msgstr ""
+
+#: panel2.php:269
+msgid "Media Player"
+msgstr ""
+
+#: panel2.php:270
+msgid "Real Player"
+msgstr ""
+
+#: panel2.php:278
+msgid "Top Countries"
+msgstr ""
+
+#: panel2.php:303
+msgid "Details about Recent Visits"
+msgstr ""
+
+#: panel2.php:328
+msgid "Direct visit to"
+msgstr ""
+
+#: panel3.php:10
+msgid "Traffic Sources by day - Click on a day to filter reports"
+msgstr ""
+
+#: panel3.php:40
+msgid "Unique Referers"
+msgstr ""
+
+#: panel3.php:41
+msgid "Direct Visits"
+msgstr ""
+
+#: panel3.php:42
+#: panel3.php:143
+msgid "Search Engines"
+msgstr ""
+
+#: panel3.php:43
+msgid "Unique Pages Referred"
+msgstr ""
+
+#: panel3.php:44
+msgid "Unique Internal"
+msgstr ""
+
+#: panel3.php:52
+msgid "Top Keywords"
+msgstr ""
+
+#: panel3.php:78
+msgid "Countries for"
+msgstr ""
+
+#: panel3.php:108
+msgid "Traffic Sources for"
+msgstr ""
+
+#: panel3.php:169
+msgid "Sites for"
+msgstr ""
+
+#: panel3.php:197
+msgid "Recent Keywords &raquo; Pages"
+msgstr ""
+
+#: panel3.php:207
+msgid "Open referer in a new window"
+msgstr ""
+
+#: panel4.php:12
+msgid "Average pageviews per visit by day - Click on a day for hourly metrics"
+msgstr ""
+
+#: panel4.php:15
+msgid "Average pageviews per visit by hour"
+msgstr ""
+
+#: panel4.php:35
+msgid "Recent Contents"
+msgstr ""
+
+#: panel4.php:62
+msgid "Recent bouncing pages"
+msgstr ""
+
+#: panel4.php:94
+msgid "Recent Feeds"
+msgstr ""
+
+#: panel4.php:119
+msgid "Popular pages for"
+msgstr ""
+
+#: panel4.php:151
+msgid "Recent 404 pages"
+msgstr ""
+
+#: panel4.php:176
+msgid "Recent Internal Searches"
+msgstr ""
+
+#: panel4.php:202
+msgid "Top Exit Pages for"
+msgstr ""
+
+#: panel4.php:235
+msgid "Recent Outbound Links"
+msgstr ""
+
+#: panel4.php:276
+msgid "Recent Downloads"
+msgstr ""
+
+#: panel5.php:30
+msgid "Order by"
+msgstr ""
+
+#: panel5.php:32
+msgid "Select filter"
+msgstr ""
+
+#: panel5.php:34
+msgid "Country"
+msgstr ""
+
+#: panel5.php:35
+msgid "Date/Time"
+msgstr ""
+
+#: panel5.php:39
+msgid "Language"
+msgstr ""
+
+#: panel5.php:46
+msgid "Select sorting"
+msgstr ""
+
+#: panel5.php:47
+msgid "Ascending"
+msgstr ""
+
+#: panel5.php:48
+msgid "Descending"
+msgstr ""
+
+#: panel5.php:50
+msgid "Starting from record #"
+msgstr ""
+
+#: panel5.php:62
+msgid "No records found"
+msgstr ""
+
+#: panel5.php:66
+#, php-format
+msgid "Records: %d - %d. Order by: %s %s"
+msgstr ""
+
+#: panel6.php:12
+msgid "Pluggable custom reports"
+msgstr ""
+
+#: panel6.php:14
+msgid "Yes, you can! Create and view your personalized analytics for WP SlimStat. In order to do this, just write a new plugin that fetches the desired information from the database and then hook it to the action <code>wp_slimstat_custom_report</code>. A demo plugin comes with the package. It shows how to write custom reports in 5 minutes. You can find it inside the plugin&apos;s folder: <code>wp-slimstat-custom-report-demo.php</code>. For more information, visit my <a href=\"http://lab.duechiacchiere.it/\" target=\"_blank\">support forum</a>."
+msgstr ""
+
+#: wp-slimstat-view.php:700
+msgid "Visits"
+msgstr ""
+
+#: wp-slimstat-view.php:700
+msgid "Unique Visits"
+msgstr ""

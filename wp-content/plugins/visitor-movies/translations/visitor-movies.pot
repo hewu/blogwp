@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Nicolas Kuttler
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Visitor Movies 0.3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/visitor-movies\n"
+"POT-Creation-Date: 2010-05-21 13:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  visitor-movies.pot (Visitor Movies 0.3.0)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:162
+msgid "Visitor Movies"
+msgstr ""
+
+#: inc/admin.php:209
+msgid "Visitor Movies for WordPress"
+msgstr ""
+
+#: inc/admin.php:214
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. "
+"Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse "
+"urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo "
+"eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. "
+"Aenean dignissim pellentesque felis."
+msgstr ""
+
+#: inc/admin.php:221
+#, php-format
+msgid ""
+"<code>%s</code> does not exist or the plugin can't write to it. Please "
+"create it or make sure the webserver can write to it."
+msgstr ""
+
+#: inc/admin.php:261
+msgid "Activate the plugin?"
+msgstr ""
+
+#: inc/admin.php:270
+msgid "Enable the plugin on all pages?"
+msgstr ""
+
+#: inc/admin.php:274
+msgid "I recommend to use the shortcode [visitor-movies] instead."
+msgstr ""
+
+#: inc/admin.php:280
+msgid "Thank the author by including a link to the plugin page in your footer?"
+msgstr ""
+
+#: inc/admin.php:289
+msgid "Percentage of visitors to log"
+msgstr ""
+
+#: inc/admin.php:298
+msgid "Reset the form?"
+msgstr ""
+
+#: inc/admin.php:308
+msgid "Save Changes"
+msgstr ""
+
+#: inc/nkuttler.php:25
+msgid "Do you like this plugin?"
+msgstr ""
+
+#: inc/nkuttler.php:33
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr ""
+
+#: inc/nkuttler.php:36
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr ""
+
+#: inc/nkuttler.php:39
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr ""
+
+#: inc/nkuttler.php:42
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr ""
+
+#: inc/nkuttler.php:45
+msgid "About the author"
+msgstr ""
+
+#: inc/nkuttler.php:48
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr ""
+
+#: inc/nkuttler.php:51
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr ""
+
+#: inc/nkuttler.php:55
+msgid "My other plugins"
+msgstr ""
+
+#: inc/nkuttler.php:56
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr ""
+
+#: inc/VisitorMoviesAdmin.php:130
+msgid "Browsing logs..."
+msgstr ""
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.wordpress-dienstleistungen.de/"
+msgstr ""

@@ -1,0 +1,126 @@
+<?php
+#
+# INS 09/12/2008 : BEG
+#---------------------
+if(defined('CREATE_CYCLE'))
+{
+	write_cycle(__FILE__);
+}
+#---------------------
+# INS 09/12/2008 : BEG
+#
+if(!function_exists('handle_critical_errors'))
+{
+	#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	#	Forward the errors to the proper destination
+	#	Added: 22/02/2008
+	#
+	function handle_critical_errors($message, $file, $line, $die='', $mailit='', $subj='', $cc='')
+	#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	{
+		#	$CAMALEO_WEBMASTER = defined within Session.php
+		#	CAMALEO_WEBMASTER  = defined within path_defs.php to override the Session.php value
+		#
+		global $CAMALEO_WEBMASTER;
+		if(defined('CAMALEO_WEBMASTER'))	{ $to = CAMALEO_WEBMASTER; } else { $to = $CAMALEO_WEBMASTER; }
+		if($to=='')							{ $to = 'camaleo.webmaster@gmail.com'; }
+		#
+		if($subj=='')						{ $subj = 'CAMALEO WARNING: CRITICAL ERROR'; }
+		$subject = $subj.' (@'.$_SERVER['HTTP_HOST'].')';
+		#
+		$message .= '<hr />'
+					.'Date: '.date('d-m-Y H:i:s').'<br />'
+					.'Host: '.$_SERVER['HTTP_HOST'].'<br />'
+					.'File: '.$file.'<br />'
+					.'Line: '.$line.'<br />'
+					.'Referer: '.$_SERVER['HTTP_REFERER'].'<br />'
+					.'Request URI: '.$_SERVER['REQUEST_URI'].'<br />'
+					.'Request IP: '.$_SERVER['REMOTE_ADDR'].'<br />'
+					.'Sent to: '.$to.'<br />'
+					.'Sent cc: '.$cc
+					.'<hr />'
+		;
+//die('message:'.$message);
+
+		#
+		#	tries to log the message (just in case the email does not go through)
+		#
+//echo 'is_PRODSERVER:'.is_PRODSERVER.'<br>';
+		$sql = 'SELECT RRN FROM `'.CAMALEO_DB.'`.`handle_critical_errors_log` LIMIT 1';
+		$sth = @mysql_query($sql);
+		if($sth)
+		{
+			#	the query succeded
+			#
+			$sql = 'INSERT INTO `'.CAMALEO_DB.'`.`handle_critical_errors_log` '
+					.'SET '
+						.'tomail	= \''.mysql_real_escape_string($to).'\', '
+						.'subject	= \''.mysql_real_escape_string($subject).'\', '
+						.'message	= \''.mysql_real_escape_string($message).'\' '
+			;
+			$sth = @mysql_query($sql);
+		}
+		#
+		# INS 04/08/2008 : BEG
+		#---------------------
+//die('hce:'.MAINSITE_URL.$page.', '.is_PRODSERVER.' ['.$die.']'.' ['.$mailit.']');
+
+		if(!defined('is_PRODSERVER')) { define(is_PRODSERVER, true); }
+		if(is_PRODSERVER==false)
+		{
+			if($die=='') { die($message); } else { echo $message; }
+		}
+		#---------------------
+		# INS 04/08/2008 : BEG
+		#
+		if(is_PRODSERVER==true || $mailit!='')
+		{
+			#	production || flag on: send the error by email to the webmaster
+			#
+			if(!function_exists('emailer'))
+			{
+				require(MED_PATH.'inc/emailer.inc.php');
+			}
+//die('hce, to:'.$to);
+			$result = emailer($to, $subject, $message, $reply, $cc, $bcc, $from, 'html', '1');
+
+//echo('to:'.$to.', message:'.$message);
+//die('to:'.$to.', message:'.$message);
+
+			if($die=='')
+			{
+				//die();
+				$page = 'unavailable.html';
+				if(file_exists(SITE_ROOT.SKIN_PATH.'unavailable.html'))
+				{
+					$page = SKIN_PATH.'unavailable.html';
+				}
+				ob_end_clean();
+
+//die('hce:'.MAINSITE_URL.$page.', '.is_PRODSERVER.' ['.$die.']'.' ['.$mailit.']');
+
+//				header('Location: http://'.$_SERVER['HTTP_HOST'].'/'.$page.'&debug='.$skin);
+//				header('Location: http://'.$_SERVER['HTTP_HOST'].'/'.$page);					#	27/04/2009
+				header('Location: '.MAINSITE_URL.$page);										#	27/04/2009
+				exit();
+
+//				if(!headers_sent())
+//				{
+//					header('Location: '.MAINSITE_URL.SKIN_PATH.$page);
+//				}
+//				else
+//				{
+//
+/*					?><script type="text/javascript">window.location="<?=$page?>";</script><?php */
+//					header('Location: '.MAINSITE_URL.$page);
+//				}
+//				exit();
+			}
+		}
+		else
+		{
+			if($die=='') { die($message); } else { echo $message; }
+		}
+	}
+}
+?>

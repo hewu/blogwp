@@ -1,0 +1,954 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StatPressCN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-02 16:00+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: heart5 <baiyefeng@gmail.com>\n"
+"Language-Team: hugo5688 <hugo5688@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\tools\\program\\xampp\\htdocs\\wp-content\\plugins\\statpresscn\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: statpresscn.php:78
+#: statpresscn.php:80
+msgid "StatPressCN"
+msgstr "總覽"
+
+#: statpresscn.php:82
+msgid "StatPressCN Details"
+msgstr "訪問統計 細節"
+
+#: statpresscn.php:82
+msgid "Details"
+msgstr "細節"
+
+#: statpresscn.php:83
+msgid "StatPressCN Spy"
+msgstr "訪問統計 蜘蛛"
+
+#: statpresscn.php:83
+#: statpresscn.php:1437
+msgid "Spy"
+msgstr "蜘蛛"
+
+#: statpresscn.php:84
+msgid "StatPressCN Friends"
+msgstr "訪問統計 朋友來訪"
+
+#: statpresscn.php:84
+#: statpresscn.php:1497
+msgid "Friends"
+msgstr "朋友來訪"
+
+#: statpresscn.php:85
+msgid "StatPressCN Mobiler"
+msgstr "訪問統計 移動來訪"
+
+#: statpresscn.php:85
+msgid "Mobiler"
+msgstr "移動來訪"
+
+#: statpresscn.php:87
+msgid "StatPressCN 404"
+msgstr "訪問統計 問題訪問"
+
+#: statpresscn.php:87
+#: statpresscn.php:1625
+msgid "404"
+msgstr "問題訪問"
+
+#: statpresscn.php:89
+msgid "StatPressCN Search"
+msgstr "訪問統計 搜尋"
+
+#: statpresscn.php:89
+#: statpresscn.php:1653
+#: statpresscn.php:1692
+#: statpresscn.php:1817
+#: statpresscn.php:1866
+msgid "Search"
+msgstr "搜尋"
+
+#: statpresscn.php:91
+msgid "StatPressCN Export"
+msgstr "訪問統計 匯出"
+
+#: statpresscn.php:91
+#: statpresscn.php:742
+msgid "Export"
+msgstr "匯出"
+
+#: statpresscn.php:96
+msgid "StatPressCN BanIP DIY"
+msgstr "訪問統計 加入惡意IP"
+
+#: statpresscn.php:96
+#: statpresscn.php:114
+msgid "BanIP DIY"
+msgstr "加入惡意IP地址"
+
+#: statpresscn.php:99
+msgid "StatPressCN Define IP"
+msgstr "訪問統計 IP命名"
+
+#: statpresscn.php:99
+msgid "DefIP DIY"
+msgstr "IP命名自助編輯"
+
+#: statpresscn.php:102
+msgid "StatPressCN Spider DIY"
+msgstr "訪問統計 封鎖蜘蛛資料庫"
+
+#: statpresscn.php:102
+#: statpresscn.php:273
+msgid "Spider DIY"
+msgstr "封鎖蜘蛛資料庫"
+
+#: statpresscn.php:104
+msgid "StatPressCN Options"
+msgstr "訪問統計 選項"
+
+#: statpresscn.php:104
+msgid "Options"
+msgstr "選項"
+
+#: statpresscn.php:106
+msgid "StatPressCN StatUpdate"
+msgstr "訪問統計 更新"
+
+#: statpresscn.php:106
+msgid "StatUpdate"
+msgstr "訪問統計更新"
+
+#: statpresscn.php:108
+msgid "StatPressCN Support"
+msgstr "訪問統計 支援"
+
+#: statpresscn.php:108
+#: statpresscn.php:546
+msgid "Support"
+msgstr "支援"
+
+#: statpresscn.php:127
+#: statpresscn.php:584
+msgid "Saved"
+msgstr "已儲存"
+
+#: statpresscn.php:346
+msgid "Define IP"
+msgstr "IP命名"
+
+#: statpresscn.php:430
+msgid "Debug Info"
+msgstr "調試信息"
+
+#: statpresscn.php:548
+msgid "Thank you for using StatPressCN for visit stats."
+msgstr "感謝您使用StatPressCN來統計訪客數據。"
+
+#: statpresscn.php:549
+msgid "Developing page"
+msgstr "開發頁面"
+
+#: statpresscn.php:550
+msgid "you can make suggestions for the plugin there. Everything is welcomed. May you happy!"
+msgstr "您可以在這提出有關於此外掛的任何意見或話題，並祝您使用愉快!"
+
+#: statpresscn.php:602
+msgid "Frontend Setting"
+msgstr "前端設定"
+
+#: statpresscn.php:604
+msgid "Show HotDepth on the head"
+msgstr "在博文頭部顯示熱度"
+
+#: statpresscn.php:614
+msgid "Show related post at the tail"
+msgstr "在博文尾部顯示相關文章"
+
+#: statpresscn.php:621
+msgid "Show spy on widget, default number is 8"
+msgstr "顯示蜘蛛到Widget中，默認數量是8位"
+
+#: statpresscn.php:622
+msgid "Not show StatPressCN's credit on widget"
+msgstr "不在側欄顯示StatPressCN的版權信息"
+
+#: statpresscn.php:625
+msgid "Backend Setting"
+msgstr "后臺設定"
+
+#: statpresscn.php:626
+msgid "Days in Overview graph"
+msgstr "概觀圖示中顯示的天數"
+
+#: statpresscn.php:634
+msgid "Number in Spy"
+msgstr "最近來訪顯示的項目數"
+
+#: statpresscn.php:643
+msgid "Number in Friends"
+msgstr "朋友來訪顯示的項目數"
+
+#: statpresscn.php:650
+msgid "left details page stat period setting is "
+msgstr "詳情頁面中左欄的統計周期設定為"
+
+#: statpresscn.php:652
+#: statpresscn.php:679
+#: statpresscn.php:3098
+msgid "month"
+msgstr "月份"
+
+#: statpresscn.php:653
+#: statpresscn.php:678
+msgid "weeks"
+msgstr "禮拜"
+
+#: statpresscn.php:654
+#: statpresscn.php:677
+#: statpresscn.php:3097
+msgid "week"
+msgstr "周"
+
+#: statpresscn.php:655
+msgid "day"
+msgstr "天"
+
+#: statpresscn.php:659
+msgid "Functions Extended"
+msgstr "功能擴充"
+
+#: statpresscn.php:661
+msgid "Show Spider DIY on menu"
+msgstr "顯示加入封鎖蜘蛛資料庫至選單中"
+
+#: statpresscn.php:662
+msgid "Show BanIP DIY on menu"
+msgstr "顯示加入惡意IP至選單中"
+
+#: statpresscn.php:665
+msgid "Show Export on menu"
+msgstr "顯示統計數據導出至選單中"
+
+#: statpresscn.php:666
+msgid "Show StatUpdate on menu"
+msgstr "顯示統計系統升級至選單中"
+
+#: statpresscn.php:669
+msgid "Show 404 on menu"
+msgstr "顯示問題訪問至選單中"
+
+#: statpresscn.php:670
+msgid "Show Define IP on menu"
+msgstr "顯示IP命名自助編輯至選單中"
+
+#: statpresscn.php:672
+msgid "System Setting"
+msgstr "系統設定"
+
+#: statpresscn.php:674
+msgid "Automatically delete visits older than"
+msgstr "自動刪除拜訪記錄，每"
+
+#: statpresscn.php:676
+msgid "Never delete!"
+msgstr "從不刪除!"
+
+#: statpresscn.php:680
+#: statpresscn.php:681
+#: statpresscn.php:3099
+#: statpresscn.php:3100
+msgid "months"
+msgstr "個月"
+
+#: statpresscn.php:682
+#: statpresscn.php:3101
+msgid "year"
+msgstr "年"
+
+#: statpresscn.php:686
+msgid "Collect data about logged users, too."
+msgstr "同樣也收集已登入的使用者。"
+
+#: statpresscn.php:687
+msgid "Also collect spiders visits"
+msgstr "也受理蜘蛛瀏覽數"
+
+#: statpresscn.php:690
+msgid "IP Info Query Tools"
+msgstr "IP信息查尋工具"
+
+#: statpresscn.php:697
+msgid "Minimum capability to view stats"
+msgstr "查看統計數據的最低權限"
+
+#: statpresscn.php:701
+#: statpresscn.php:1461
+#: statpresscn.php:1553
+msgid "more info"
+msgstr "更多信息"
+
+#: statpresscn.php:706
+msgid "Delete options when deactivating"
+msgstr "停用時刪除設定"
+
+#: statpresscn.php:707
+#: statpresscn.php:711
+msgid "Warning"
+msgstr "敬告"
+
+#: statpresscn.php:707
+msgid "Options or setting will be reset to default when StatpressCN being deactivated"
+msgstr "一旦插件停用，則刪除所有的設定和選項"
+
+#: statpresscn.php:710
+msgid "Delete table when deactivating"
+msgstr "停用時刪除數據表"
+
+#: statpresscn.php:711
+msgid "All record will be deleted when StatpressCN being deactivated, including the table' structure"
+msgstr "一旦插件停用，則刪除所有的訪問記錄，包括數據結構和數據表本身"
+
+#: statpresscn.php:714
+msgid "Save options"
+msgstr "儲存選項"
+
+#: statpresscn.php:737
+msgid "Export stats to text file"
+msgstr "匯出統計數據至純文字檔案"
+
+#: statpresscn.php:739
+#: statpresscn.php:1290
+#: statpresscn.php:1365
+#: statpresscn.php:3094
+msgid "From"
+msgstr "從"
+
+#: statpresscn.php:740
+msgid "To"
+msgstr "到"
+
+#: statpresscn.php:741
+msgid "Fields delimiter"
+msgstr "分隔符號"
+
+#: statpresscn.php:785
+msgid "Overview"
+msgstr "概觀"
+
+#: statpresscn.php:788
+msgid "Total"
+msgstr "總計"
+
+#: statpresscn.php:789
+msgid "Last year"
+msgstr "去年"
+
+#: statpresscn.php:790
+msgid "This year"
+msgstr "今年"
+
+#: statpresscn.php:791
+msgid "Target This year"
+msgstr "今年預期"
+
+#: statpresscn.php:792
+msgid "Last month"
+msgstr "上個月"
+
+#: statpresscn.php:793
+msgid "This month"
+msgstr "本月"
+
+#: statpresscn.php:794
+msgid "Target This month"
+msgstr "本月目標"
+
+#: statpresscn.php:795
+msgid "Yesterday"
+msgstr "昨日"
+
+#: statpresscn.php:796
+msgid "Today"
+msgstr "今日"
+
+#: statpresscn.php:802
+msgid "Visitors"
+msgstr "拜訪者"
+
+#: statpresscn.php:905
+msgid "Pageviews"
+msgstr "頁面瀏覽數"
+
+#: statpresscn.php:1008
+#: statpresscn.php:1401
+msgid "Spiders"
+msgstr "蜘蛛"
+
+#: statpresscn.php:1111
+#: statpresscn.php:1349
+#: statpresscn.php:1398
+msgid "Feeds"
+msgstr "Feeds"
+
+#: statpresscn.php:1290
+msgid "Last hits"
+msgstr "近期瀏覽"
+
+#: statpresscn.php:1290
+#: statpresscn.php:1317
+#: statpresscn.php:1333
+#: statpresscn.php:1349
+#: statpresscn.php:1365
+msgid "Time"
+msgstr "時間"
+
+#: statpresscn.php:1290
+#: statpresscn.php:1317
+#: statpresscn.php:1333
+#: statpresscn.php:1349
+#: statpresscn.php:1365
+msgid "IP|Visitor"
+msgstr "來訪者"
+
+#: statpresscn.php:1290
+#: statpresscn.php:1875
+msgid "Page"
+msgstr "網頁"
+
+#: statpresscn.php:1290
+#: statpresscn.php:1349
+#: statpresscn.php:1410
+#: statpresscn.php:1602
+msgid "OS"
+msgstr "作業系統"
+
+#: statpresscn.php:1290
+#: statpresscn.php:1349
+#: statpresscn.php:1407
+#: statpresscn.php:1599
+#: statpresscn.php:1646
+msgid "Browser"
+msgstr "瀏覽器"
+
+#: statpresscn.php:1317
+msgid "Last search terms"
+msgstr "近期搜尋關鍵字"
+
+#: statpresscn.php:1317
+msgid "Terms"
+msgstr "關鍵字"
+
+#: statpresscn.php:1317
+msgid "Engine"
+msgstr "引擎"
+
+#: statpresscn.php:1317
+#: statpresscn.php:1333
+msgid "Result"
+msgstr "結果"
+
+#: statpresscn.php:1328
+#: statpresscn.php:1344
+#: statpresscn.php:1349
+msgid "page viewed"
+msgstr "瀏覽頁面"
+
+#: statpresscn.php:1333
+msgid "Last referrers"
+msgstr "近期外部來源"
+
+#: statpresscn.php:1333
+msgid "URL"
+msgstr "URL"
+
+#: statpresscn.php:1349
+msgid "Last feed"
+msgstr "近期Feed"
+
+#: statpresscn.php:1365
+msgid "Last agents"
+msgstr "近期的代理程式"
+
+#: statpresscn.php:1365
+#: statpresscn.php:1641
+msgid "Agent"
+msgstr "代理程式"
+
+#: statpresscn.php:1389
+#: statpresscn.php:1587
+msgid "Top pages"
+msgstr "熱門頁面"
+
+#: statpresscn.php:1392
+#: statpresscn.php:1593
+msgid "Top search terms"
+msgstr "熱門搜尋關鍵字"
+
+#: statpresscn.php:1395
+#: statpresscn.php:1590
+msgid "Top referrer"
+msgstr "熱門外部來源"
+
+#: statpresscn.php:1404
+#: statpresscn.php:1596
+#: statpresscn.php:1644
+msgid "Search engine"
+msgstr "搜尋引擎"
+
+#: statpresscn.php:1413
+#: statpresscn.php:1605
+msgid "Countries (city)"
+msgstr "國度 (城市)"
+
+#: statpresscn.php:1416
+msgid "Top days"
+msgstr "最多人瀏覽"
+
+#: statpresscn.php:1419
+#: statpresscn.php:1608
+msgid "Top Days - Unique visitors"
+msgstr "最多人瀏覽 (獨立訪客)-"
+
+#: statpresscn.php:1422
+#: statpresscn.php:1611
+msgid "Top Days - Pageviews"
+msgstr "最多人瀏覽 (頁面瀏覽數)-"
+
+#: statpresscn.php:1425
+#: statpresscn.php:1614
+msgid "Top IPs - Pageviews"
+msgstr "最常訪問的IP (頁面瀏覽數)-"
+
+#: statpresscn.php:1476
+#: statpresscn.php:1478
+#: statpresscn.php:1568
+#: statpresscn.php:1570
+msgid "arrived from"
+msgstr "來自"
+
+#: statpresscn.php:1476
+#: statpresscn.php:1568
+msgid "searching"
+msgstr "的搜尋"
+
+#: statpresscn.php:1478
+#: statpresscn.php:1570
+msgid "there"
+msgstr "這裡"
+
+#: statpresscn.php:1542
+msgid "has left"
+msgstr "共留下了"
+
+#: statpresscn.php:1544
+msgid "comments"
+msgstr "留言"
+
+#: statpresscn.php:1544
+msgid "comment"
+msgstr "留言"
+
+#: statpresscn.php:1546
+msgid "and the latest is"
+msgstr "最近的一條是"
+
+#: statpresscn.php:1548
+msgid "at"
+msgstr "于"
+
+#: statpresscn.php:1550
+msgid "has visited"
+msgstr "共訪問了"
+
+#: statpresscn.php:1552
+msgid "pages"
+msgstr "頁面"
+
+#: statpresscn.php:1552
+msgid "page"
+msgstr "頁面"
+
+#: statpresscn.php:1552
+msgid "and the latest"
+msgstr "最近的"
+
+#: statpresscn.php:1552
+msgid "are at below"
+msgstr "在下面"
+
+#: statpresscn.php:1552
+msgid "is at below"
+msgstr "在下面"
+
+#: statpresscn.php:1639
+msgid "Date"
+msgstr "日期"
+
+#: statpresscn.php:1640
+msgid "URL Requested"
+msgstr "URL需求"
+
+#: statpresscn.php:1642
+msgid "Referrer"
+msgstr "外部來源"
+
+#: statpresscn.php:1643
+msgid "Search terms"
+msgstr "搜尋關鍵字"
+
+#: statpresscn.php:1645
+msgid "Operative system"
+msgstr "作業系統"
+
+#: statpresscn.php:1647
+msgid "Spider"
+msgstr "爬蟲"
+
+#: statpresscn.php:1649
+msgid "Visitor"
+msgstr "來訪者"
+
+#: statpresscn.php:1650
+msgid "StatusCode"
+msgstr "訪問狀態代碼"
+
+#: statpresscn.php:1658
+msgid "Field"
+msgstr "欄位"
+
+#: statpresscn.php:1665
+msgid "Group by"
+msgstr "群組依據"
+
+#: statpresscn.php:1666
+msgid "Sort by"
+msgstr "排序依據"
+
+#: statpresscn.php:1667
+msgid "if contains"
+msgstr "如果包含"
+
+#: statpresscn.php:1677
+msgid "sort by count if grouped"
+msgstr "如有分組依計數排序"
+
+#: statpresscn.php:1678
+msgid "include spiders/crawlers/bot"
+msgstr "包含蜘蛛、爬蟲和機器人"
+
+#: statpresscn.php:1679
+msgid "include feed"
+msgstr "包含 feed"
+
+#: statpresscn.php:1686
+#: statpresscn.php:3092
+msgid "Limit results to"
+msgstr "搜尋數量最大值為"
+
+#: statpresscn.php:1749
+msgid "Results"
+msgstr "結果"
+
+#: statpresscn.php:1756
+msgid "Count"
+msgstr "計數"
+
+#: statpresscn.php:1793
+#: statpresscn.php:1795
+#: statpresscn.php:1849
+#: statpresscn.php:1851
+msgid "Home"
+msgstr "首頁"
+
+#: statpresscn.php:1799
+#: statpresscn.php:1853
+msgid "Category"
+msgstr "類別"
+
+#: statpresscn.php:1808
+#: statpresscn.php:1810
+#: statpresscn.php:1861
+#: statpresscn.php:1863
+msgid "Tag"
+msgstr "標籤"
+
+#: statpresscn.php:1813
+#: statpresscn.php:1855
+msgid "Calendar"
+msgstr "行事曆"
+
+#: statpresscn.php:1815
+#: statpresscn.php:1857
+msgid "Archive"
+msgstr "封存"
+
+#: statpresscn.php:1822
+#: statpresscn.php:1824
+msgid "Trackback"
+msgstr "迴響"
+
+#: statpresscn.php:1830
+#: statpresscn.php:1832
+#: statpresscn.php:1871
+msgid "Feed"
+msgstr "摘要"
+
+#: statpresscn.php:2053
+msgid "recently"
+msgstr "最近的"
+
+#: statpresscn.php:2053
+#: statpresscn.php:2078
+#: statpresscn.php:3093
+msgid "Visits"
+msgstr "拜訪數"
+
+#: statpresscn.php:2078
+msgid "all stats days"
+msgstr "所有統計天數"
+
+#: statpresscn.php:2385
+msgid "related post"
+msgstr "相關文章"
+
+#: statpresscn.php:2518
+msgid "Updating table's struct: "
+msgstr "更新資料表結構中: "
+
+#: statpresscn.php:2520
+#: statpresscn.php:2539
+#: statpresscn.php:2585
+#: statpresscn.php:3209
+#: statpresscn.php:3222
+#: statpresscn.php:3235
+msgid "done"
+msgstr "完成"
+
+#: statpresscn.php:2539
+msgid "items have been deleted"
+msgstr "項目已刪除"
+
+#: statpresscn.php:2549
+msgid "Updating Feeds"
+msgstr "更新Feeds中"
+
+#: statpresscn.php:2590
+msgid "Updating OSes"
+msgstr "更新作業系統數據中"
+
+#: statpresscn.php:2600
+#: statpresscn.php:2616
+#: statpresscn.php:2631
+#: statpresscn.php:2650
+#: statpresscn.php:2666
+#: statpresscn.php:2682
+#: statpresscn.php:2698
+msgid " are updated"
+msgstr "已更新數據"
+
+#: statpresscn.php:2606
+msgid "Updating Browsers"
+msgstr "更新瀏覽器數據中"
+
+#: statpresscn.php:2621
+msgid "Updating Spiders"
+msgstr "更新蜘蛛數據中"
+
+#: statpresscn.php:2623
+#: statpresscn.php:2639
+msgid " sets is set to blank! "
+msgstr "條記錄被置空"
+
+#: statpresscn.php:2637
+msgid "Updating Search engines"
+msgstr "更新搜尋引擎數據中"
+
+#: statpresscn.php:2641
+#: statpresscn.php:2657
+#: statpresscn.php:2673
+#: statpresscn.php:2710
+msgid " are select-ed"
+msgstr "已選擇"
+
+#: statpresscn.php:2655
+msgid "Updating sets for ip info : "
+msgstr "更新所有記錄的IP信息"
+
+#: statpresscn.php:2671
+msgid "Updating sets whose ip info is null: "
+msgstr "僅更新那些IP信息為空的記錄"
+
+#: statpresscn.php:2687
+msgid "Updating sets whose ip is named in defip.dat: "
+msgstr "更新那些已經在defip.dat中定義了的記錄"
+
+#: statpresscn.php:2703
+msgid "Deleting sets whose statuscode is 404: "
+msgstr "刪除所有狀態碼為404的訪問記錄"
+
+#: statpresscn.php:2705
+#: statpresscn.php:2716
+msgid " are deleted"
+msgstr "項目已刪除"
+
+#: statpresscn.php:2708
+msgid "Cleaning spam commenters: "
+msgstr "清理垃圾評論者："
+
+#: statpresscn.php:2726
+msgid "Updated"
+msgstr "更新完成"
+
+#: statpresscn.php:2744
+msgid "Update all sets for spider"
+msgstr "更新所有蜘蛛的數據"
+
+#: statpresscn.php:2745
+msgid "Update all sets based longth you configure"
+msgstr "更新您設定數據存儲時限內的數據"
+
+#: statpresscn.php:2748
+msgid "Update all sets for banip"
+msgstr "更新所有惡意IP的數據"
+
+#: statpresscn.php:2749
+msgid "Update all sets for urlrequested"
+msgstr "更新所有URL的數據"
+
+#: statpresscn.php:2752
+msgid "Update all sets for O.S."
+msgstr "更新所有作業系統的數據。"
+
+#: statpresscn.php:2753
+msgid "Update all sets for browser"
+msgstr "更新所有瀏覽器的數據"
+
+#: statpresscn.php:2756
+msgid "Update all sets for search engine"
+msgstr "更新所有搜尋引擎的數據"
+
+#: statpresscn.php:2757
+msgid "Update all sets for feed"
+msgstr "更新所有Feed的數據"
+
+#: statpresscn.php:2760
+msgid "Update all sets for ip info"
+msgstr "更新所有記錄的IP信息"
+
+#: statpresscn.php:2761
+msgid "Update sets partly, whose ip info is null"
+msgstr "僅更新那些IP信息為空的記錄"
+
+#: statpresscn.php:2764
+msgid "Delete all 404 visits"
+msgstr "刪除所有的問題訪問"
+
+#: statpresscn.php:2765
+msgid "Update sets partly, whose name is null"
+msgstr "更新那些name為空的記錄"
+
+#: statpresscn.php:2767
+msgid "Update stat data"
+msgstr "更新統計資料"
+
+#: statpresscn.php:2819
+msgid "Hot"
+msgstr "熱門"
+
+#: statpresscn.php:3039
+msgid "Title:"
+msgstr "標題:"
+
+#: statpresscn.php:3042
+msgid "Body:"
+msgstr "主體:"
+
+#: statpresscn.php:3062
+msgid "Powered by"
+msgstr "技術支持來自"
+
+#: statpresscn.php:3062
+msgid "Whitime"
+msgstr "天高云淡"
+
+#: statpresscn.php:3091
+msgid "Title"
+msgstr "標題"
+
+#: statpresscn.php:3096
+msgid "Stats on"
+msgstr "統計開啟"
+
+#: statpresscn.php:3102
+msgid "ago to now"
+msgstr "之前到現在"
+
+#: statpresscn.php:3156
+msgid "Updating URLes"
+msgstr "更新URL中"
+
+#: statpresscn.php:3168
+msgid "select-ed"
+msgstr "已選擇"
+
+#: statpresscn.php:3192
+#: statpresscn.php:3207
+msgid "sets are updated"
+msgstr "已更新數據"
+
+#: statpresscn.php:3207
+msgid "The permalink structure is set to default"
+msgstr "固定連結的結構已設回預設值"
+
+#: statpresscn.php:3217
+msgid "Delete sets that have spider if needed"
+msgstr "如有需要則刪除蜘蛛的數據"
+
+#: statpresscn.php:3229
+msgid "Delete sets if needed"
+msgstr "如有需要則刪除數據"
+
+#: statpresscn.php:3246
+msgid "as many as you can"
+msgstr "n"
+
+#: statpresscn.php:3278
+msgid "StatPressCN table size"
+msgstr "StatPressCN 資料表大小"
+
+#: statpresscn.php:3280
+msgid "Query count"
+msgstr "查尋計數"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+#~ msgid "StatPressCN current time"
+#~ msgstr "StatPressCN 當前時間"
+#~ msgid "RSS2 url"
+#~ msgstr "RSS2 url"
+#~ msgid "StatPressCN Debug Info"
+#~ msgstr "訪問統計 調試信息"
+#~ msgid "Show post's HotDepth"
+#~ msgstr "顯示文章熱門度"
+#~ msgid "Domain"
+#~ msgstr "網域"
+#~ msgid "What"
+#~ msgstr "作業系統"
+#~ msgid "Support by"
+#~ msgstr "技術支援"
+#~ msgid "Last spiders"
+#~ msgstr "最近蜘蛛"
+#~ msgid "Google Images catched *"
+#~ msgstr "發現來自Google圖像的搜索"
+#~ msgid "Google Cache catched *"
+#~ msgstr "發現來自Google緩存的搜索"
+

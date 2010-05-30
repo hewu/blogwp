@@ -1,0 +1,17 @@
+.wrap H2 { float:left; clear:both; }
+#coFSSdonate { padding:14px 20px; float:left;}
+#coFSSlogo { margin:10px 20px; float:right; }
+.coChart { background:transparent; border:0 none; margin:10px; padding:0; }
+	.coChart IMG { background:transparent; border:0 none; margin:0; padding:0; }
+.widefat { margin-bottom:1eM; }
+	.widefat TR:hover { color:black!important }
+	.widefat TH, .widefat TD { font-weight:normal; text-align:right; white-space:nowrap; width:6ex; }
+	.widefat TH:first-child { text-align:left; width:auto; }
+	.widefat TD:first-child { text-align:left; width:auto; overflow:hidden; }
+.form-table { width:auto }
+	.form-table SELECT { width:100% }
+/*#total_chart { height:auto; width:100%; }*/
+
+#lightbox-container-image-box,
+#lightbox-container-image-data-box { padding:0!important; width:1020px!important; max-width:90%; }
+#lightbox-image { max-width:100%; }

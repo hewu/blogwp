@@ -1,0 +1,1588 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD Press Tools 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nc:1,2;_n_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\gd-press-tools\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\gd-press-tools\n"
+
+#: code/db.php:108
+msgid "None"
+msgstr "Ingen"
+
+#: code/db.php:109
+msgid "Index, Follow"
+msgstr "Index, Follow"
+
+#: code/db.php:110
+msgid "Index, No follow"
+msgstr "Index, No follow"
+
+#: code/db.php:111
+msgid "No index, Follow"
+msgstr "No index, Follow"
+
+#: code/db.php:112
+msgid "No index, No follow"
+msgstr "No index, No follow"
+
+#: code/db.php:218
+msgid "Username is invalid."
+msgstr "Brugernavn er ugyldigt."
+
+#: code/db.php:219
+msgid "Username is the same. Nothing is changed."
+msgstr "Brugernavn er det samme. Intet blev ændret."
+
+#: code/db.php:220
+msgid "Choosen username already exists."
+msgstr "Det valgte brugernavn findes allerede."
+
+#: code/functions.php:57
+msgid "RSS feed is not available. Instead, please visit our website: "
+msgstr "RSS-feed er ikke tilgængelig. Besøg i stedet vores websted: "
+
+#: code/js.php:2
+msgid "Are you sure? Operation is not reversible."
+msgstr "Er du sikker? Handlingen kan ikke fortrydes."
+
+#: code/js.php:5
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: code/meta.php:14
+#: gd-press-tools.php:665
+msgid "Front Page"
+msgstr "Forside"
+
+#: code/meta.php:15
+msgid "Single Post"
+msgstr "Enkelt-indlæg"
+
+#: code/meta.php:16
+msgid "Single Page"
+msgstr "Enkel-side"
+
+#: code/meta.php:17
+msgid "Search Results Page"
+msgstr "Søgeresultat-side"
+
+#: code/meta.php:18
+msgid "Tag Archives"
+msgstr "Tag-arkiver"
+
+#: code/meta.php:19
+msgid "Category Archives"
+msgstr "Kategori-arkiver"
+
+#: code/meta.php:20
+msgid "Date based Archives"
+msgstr "Datobaserede arkiver"
+
+#: code/meta.php:21
+msgid "Author Archives"
+msgstr "Forfatterarkiver"
+
+#: code/meta.php:22
+msgid "Login Page"
+msgstr "Logind-side"
+
+#: code/meta.php:23
+msgid "Administration Pages"
+msgstr "Administrationssider"
+
+#: modules/db/backup.php:2
+#: modules/widgets/dashboard.php:80
+#: modules/settings.php:6
+#: gd-press-tools.php:675
+#: gd-press-tools.php:956
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: modules/db/backup.php:4
+msgid "Database backup file will be saved into this folder"
+msgstr "Filen med databasebackup gemmes i denne mappe"
+
+#: modules/db/backup.php:7
+msgid "Save database backup as GZIP archive."
+msgstr "Gem databasebackup som GZIP-arkiv."
+
+#: modules/db/backup.php:9
+msgid "Add DROP IF NOT EXISTS query for each table."
+msgstr "Tilføj DROP IF NOT EXISTS-forespørgsel for hver tabel."
+
+#: modules/db/backup.php:11
+msgid "Export only tables structure, no data."
+msgstr "Eksportér kun tabelstruktur, ikke data."
+
+#: modules/db/backup.php:13
+#: modules/db.php:39
+msgid "Backup"
+msgstr "Backup"
+
+#: modules/db/backup.php:16
+msgid "Backups"
+msgstr "Backups"
+
+#: modules/db/backup.php:18
+msgid "This is the list of available backups for download"
+msgstr "Dette er listen med backups, der kan downloades"
+
+#: modules/db/backup.php:22
+msgid "No backup files found in backup folder."
+msgstr "Ingen backupfiler i backup-mappen."
+
+#: modules/db/backup.php:5
+msgid "Plugin can't access the backup folder. Check the folder access rights before proceeding."
+msgstr "Pluginnet kan ikke få adgang til backup-mappen. Tjek adgangsrettighederne til mappen, inden du fortsætter."
+
+#: modules/db/tables.php:4
+#: modules/db/tables.php:51
+msgid "Name"
+msgstr "Navn"
+
+#: modules/db/tables.php:5
+#: modules/tagger.php:41
+msgid "Status"
+msgstr "Status"
+
+#: modules/db/tables.php:6
+msgid "Collation"
+msgstr "Collation"
+
+#: modules/db/tables.php:7
+msgid "Records"
+msgstr "Post"
+
+#: modules/db/tables.php:8
+msgid "Size"
+msgstr "Størrelse"
+
+#: modules/db/tables.php:9
+msgid "Overhead"
+msgstr "\"Spild\""
+
+#: modules/db/tables.php:10
+#: modules/cron.php:18
+#: gd-press-tools.php:1064
+msgid "Options"
+msgstr "Indstillinger"
+
+#: modules/db/tables.php:52
+msgid "Type"
+msgstr "Type"
+
+#: modules/db/tables.php:53
+msgid "Key"
+msgstr "Nøgle"
+
+#: modules/db/tables.php:54
+msgid "Default"
+msgstr "Standard"
+
+#: modules/db/tables.php:55
+msgid "Extra"
+msgstr "Ekstra"
+
+#: modules/db/tables.php:82
+msgid "Default WordPress tables can't be emptied or droped."
+msgstr "Standardtabeller i WordPress kan ikke tømmes eller slettes."
+
+#: modules/db/tables.php:40
+msgid "drop"
+msgstr "slet"
+
+#: modules/db/tables.php:40
+msgid "empty"
+msgstr "tøm"
+
+#: modules/db/tools.php:1
+msgid "Optimize Database"
+msgstr "Optimér database"
+
+#: modules/db/tools.php:4
+msgid "Optimize, remove overhead and repair all tables if needed."
+msgstr "Optimér, fjern \"spildplads\" og reparér alle tabeller, om nødvendigt."
+
+#: modules/db/tools.php:5
+msgid "Clean"
+msgstr "Rens"
+
+#: modules/db/tools.php:7
+msgid "Overhead can have negative impact to WordPress performance, and is best to have database optimized from time to time."
+msgstr "\"Spildplads\" kan påvirke WordPress-ydelsen negativt, og det er bedst at optimere databasen fra tid til anden."
+
+#: modules/db/tools.php:11
+msgid "Delete Backups"
+msgstr "Slet backups"
+
+#: modules/db/tools.php:14
+msgid "Delete all database backup files from the backup folder."
+msgstr "Slet alle filer med databasebackups fra backup-mappen."
+
+#: modules/db/tools.php:15
+#: modules/admin.php:26
+#: modules/posts.php:30
+#: modules/posts.php:46
+msgid "Delete"
+msgstr "Slet"
+
+#: modules/db/tools.php:17
+msgid "Currently available backup files"
+msgstr "Backup-filer, der pt. er tilgængelige"
+
+#: modules/front/gdragon.php:4
+msgid "Info"
+msgstr "Info"
+
+#: modules/front/gdragon.php:8
+#: modules/front/infos.php:49
+#: modules/front/infos.php:96
+msgid "Version"
+msgstr "Version"
+
+#: modules/front/gdragon.php:9
+msgid "release date"
+msgstr "Udgivelsesdato"
+
+#: modules/front/gdragon.php:14
+msgid "Change Log"
+msgstr "Log over ændringer"
+
+#: modules/front/gdragon.php:15
+msgid "detailed list of changes"
+msgstr "detaljeret liste over ændringer"
+
+#: modules/front/gdragon.php:16
+#: modules/front/gdragon.php:27
+#: modules/front/gdragon.php:32
+#: modules/front/gdragon.php:37
+#: modules/front/gdragon.php:42
+#: modules/front/gdragon.php:66
+#: modules/front/gdragon.php:71
+#: modules/front/gdragon.php:76
+#: modules/front/gdragon.php:81
+#: modules/front/gdragon.php:86
+#: modules/front/gdragon.php:100
+#: modules/front/gdragon.php:105
+#: modules/front/gdragon.php:110
+#: modules/front/gdragon.php:115
+#: modules/front/gdragon.php:120
+msgid "visit"
+msgstr "besøg"
+
+#: modules/front/gdragon.php:21
+msgid "Links"
+msgstr "Links"
+
+#: modules/front/gdragon.php:26
+msgid "official plugin page"
+msgstr "Officiel plugin-side"
+
+#: modules/front/gdragon.php:31
+msgid "discussions group"
+msgstr "Diskussionsgruppe"
+
+#: modules/front/gdragon.php:36
+msgid "wordpress plugin page"
+msgstr "WordPress-plugin-side"
+
+#: modules/front/gdragon.php:40
+msgid "Donate"
+msgstr "Donér"
+
+#: modules/front/gdragon.php:41
+msgid "help further development"
+msgstr "Understøt videreudvikling"
+
+#: modules/front/gdragon.php:46
+msgid "Pro Edition"
+msgstr "Pro-udgave"
+
+#: modules/front/gdragon.php:50
+#: modules/front/gdragon.php:98
+msgid "Official Website"
+msgstr "Officiel website"
+
+#: modules/front/gdragon.php:51
+msgid "extended premium version"
+msgstr "extended premium version"
+
+#: modules/front/gdragon.php:52
+msgid "soon"
+msgstr "snart"
+
+#: modules/front/gdragon.php:59
+msgid "GD WordPress Plugins"
+msgstr "GD-plugins til WordPress"
+
+#: modules/front/gdragon.php:65
+msgid "wordpress ratings system"
+msgstr "WordPress' vurderingssystem"
+
+#: modules/front/gdragon.php:70
+#: gd-press-tools.php:761
+msgid "collection of widgets"
+msgstr "samling af widgets"
+
+# tjekkes?
+#: modules/front/gdragon.php:75
+msgid "advanced pages widget"
+msgstr "Avanceret widget for sider"
+
+#: modules/front/gdragon.php:80
+msgid "custom taxonomies managment"
+msgstr "håndtering af egne taksonomier"
+
+#: modules/front/gdragon.php:85
+msgid "widget to add linkedin badge"
+msgstr "Widget til at tilføjer LinkedIn-emblem"
+
+#: modules/front/gdragon.php:99
+msgid "golden dragon official web portal"
+msgstr "Golden Dragons officielle webportal"
+
+#: modules/front/gdragon.php:104
+msgid "wordpress development"
+msgstr "WordPress-udvikling"
+
+#: modules/front/gdragon.php:109
+msgid "tv shows reviews and news"
+msgstr "tv viser anmeldelser og nyheder"
+
+#: modules/front/gdragon.php:113
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#: modules/front/gdragon.php:114
+msgid "development discussion forum"
+msgstr "Diskussionsforum for udvikling"
+
+#: modules/front/gdragon.php:119
+msgid "announcements and theme demo"
+msgstr "Annonceringer og tema-demo"
+
+#: modules/front/infos.php:2
+msgid "Plugin Quick Facts"
+msgstr "Korte fakta om pluginnet"
+
+#: modules/front/infos.php:7
+msgid "Deleted revisions"
+msgstr "Slettede revisioner"
+
+#: modules/front/infos.php:11
+msgid "Saved on database cleanup"
+msgstr "Gem i forbindelse med databaseoprydning"
+
+#: modules/front/infos.php:19
+msgid "Server Status"
+msgstr "Server-status"
+
+#: modules/front/infos.php:24
+msgid "Server"
+msgstr "Server"
+
+#: modules/front/infos.php:28
+msgid "Operating System"
+msgstr "Operativsystem"
+
+#: modules/front/infos.php:32
+msgid "Hostname"
+msgstr "Værtsnavn"
+
+#: modules/front/infos.php:36
+msgid "IP and Port"
+msgstr "IP og port"
+
+#: modules/front/infos.php:44
+msgid "PHP Status"
+msgstr "PHP-status"
+
+#: modules/front/infos.php:54
+msgid "Used Memory"
+msgstr "Brugt hukommelse"
+
+#: modules/front/infos.php:59
+msgid "Safe Mode"
+msgstr "Safe Mode"
+
+#: modules/front/infos.php:63
+msgid "Memory Limit"
+msgstr "Hukommelsesbegrænsning"
+
+#: modules/front/infos.php:67
+msgid "Max POST Size"
+msgstr "Max størrelse for POST"
+
+#: modules/front/infos.php:71
+msgid "Max Upload Size"
+msgstr "Max upload-størrelse"
+
+#: modules/front/infos.php:75
+msgid "Max Execution Time"
+msgstr "Max tid til kørsel"
+
+#: modules/front/infos.php:79
+msgid "Allow URL fopen"
+msgstr "Tillad URL-fopen"
+
+#: modules/front/infos.php:83
+msgid "GD Library"
+msgstr "GD Library"
+
+#: modules/front/infos.php:91
+msgid "mySQL Status"
+msgstr "MySQL-status"
+
+#: modules/front/infos.php:100
+msgid "Full Database Size"
+msgstr "Databasens totale størrelse"
+
+#: modules/front/infos.php:104
+msgid "WordPress Tables Size"
+msgstr "WordPress-tabelstørrelse"
+
+#: modules/front/infos.php:60
+#: modules/front/infos.php:80
+msgid "On"
+msgstr "Til"
+
+#: modules/front/infos.php:60
+#: modules/front/infos.php:80
+msgid "Off"
+msgstr "Fra"
+
+#: modules/integrate/postedit.php:5
+#: modules/settings.php:10
+msgid "Short URL"
+msgstr "Kort-URL"
+
+#: modules/integrate/postedit.php:8
+msgid "Robots Meta Tag"
+msgstr "Metatags for robotter"
+
+#: modules/integrate/postedit.php:9
+msgid "Use global meta tag settings"
+msgstr "Brug globale indstillinger for metatags"
+
+#: modules/integrate/postedit.php:15
+msgid "Standard"
+msgstr "Standard"
+
+#: modules/integrate/postedit.php:23
+msgid "No Yahoo"
+msgstr "Ingen Yahoo"
+
+#: modules/integrate/postedit.php:26
+msgid "No Archive"
+msgstr "Ingen arkivering"
+
+#: modules/integrate/postedit.php:31
+msgid "No ODP"
+msgstr "Ingen ODP"
+
+#: modules/integrate/postedit.php:34
+msgid "No Snippet"
+msgstr "Ingen snippets"
+
+#: modules/integrate/postedit.php:39
+msgid "No Image Index"
+msgstr "Ingen billedindekser"
+
+#: modules/integrate/postedit.php:42
+msgid "No Translate"
+msgstr "Ingen oversættelse"
+
+#: modules/meta/general.php:2
+msgid "Default Robots Meta"
+msgstr "Standard-metatags for robotter"
+
+#: modules/meta/general.php:4
+msgid "Try to disable standard Noindex meta tag added by WordPress."
+msgstr "Forsøg at deaktivere Noindex-metatagget, som WordPress tilføjer som standard."
+
+#: modules/meta/general.php:6
+msgid "Enable this option if you want to use advanced robots meta tag generator."
+msgstr "Aktivér denne indstilling, hvis du ønsker at bruge den avancerede robot-metatag-generator."
+
+#: modules/meta/general.php:9
+msgid "Language Meta Tag"
+msgstr "Sprog-metatags"
+
+#: modules/meta/general.php:11
+msgid "Add content language meta tag site wide. You can specify more than one language for this tag."
+msgstr "Tilføj sprog-metatag for indhold på hele sitet. Du kan angive mere end et sprog for dette tag."
+
+#: modules/meta/general.php:15
+msgid "List of languages to add"
+msgstr "Liste med sprog, der skal tilføjes"
+
+#: modules/meta/general.php:20
+msgid "list comma separated 2 character codes"
+msgstr "anfør to-tegns-sprogkoder som liste adskilt af kommaer"
+
+#: modules/meta/general.php:25
+msgid "List of all supported 2 character language codes can be found here"
+msgstr "Liste med alle understøttede sprogkoder (på to tegn) kan findes her"
+
+#: modules/meta/general.php:26
+msgid "Codes for the Representation of Names of Languages"
+msgstr "Codes for the Representation of Names of Languages"
+
+#: modules/meta/general.php:30
+#: modules/settings.php:49
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+#: modules/meta/robots.php:6
+msgid "active"
+msgstr "aktiv"
+
+#: modules/meta/robots.php:35
+msgid "Save"
+msgstr "Gem"
+
+#: modules/meta/robots.php:38
+msgid "Load Defaults"
+msgstr "Indlæs standardværdier"
+
+#: modules/meta/robots.php:39
+msgid "Clear"
+msgstr "Ryd"
+
+#: modules/settings/administration.php:1
+#: modules/posts.php:25
+msgid "Revisions"
+msgstr "Revisioner"
+
+#: modules/settings/administration.php:5
+msgid "Number of revisions to save"
+msgstr "Antal revisioner, der skal gemmes"
+
+#: modules/settings/administration.php:10
+msgid "to store every revision"
+msgstr "lagrer alle revisioner"
+
+#: modules/settings/administration.php:11
+msgid "to store only one autosave revision"
+msgstr "lagrer kun en auto-gem-revision"
+
+#: modules/settings/administration.php:14
+msgid "Updates"
+msgstr "Opdateringer"
+
+#: modules/settings/administration.php:16
+msgid "Disable WordPress core auto update check."
+msgstr "Deaktivér automatisk tjek af opdateringer til WordPress-kernen."
+
+#: modules/settings/administration.php:18
+msgid "Disable plugins auto upgrade check."
+msgstr "Deaktivér automatisk tjek af plugins-opdateringer."
+
+#: modules/settings/administration.php:20
+msgid "Disable themes auto upgrade check."
+msgstr "Deaktivér automatisk tjek af tema-opdateringer."
+
+#: modules/settings/administration.php:20
+#: modules/settings/integration.php:11
+#: modules/settings/integration.php:13
+#: modules/settings/integration.php:19
+#: modules/settings/integration.php:21
+#: modules/settings/integration.php:23
+msgid "WP 2.8 and higher."
+msgstr "WP 2.8 eller nyere."
+
+#: modules/settings/administration.php:23
+msgid "Misc"
+msgstr "Diverse"
+
+#: modules/settings/administration.php:25
+msgid "Disable Flash uploader."
+msgstr "Deaktivér Flash-uploader."
+
+#: modules/settings/administration.php:27
+msgid "Disable post auto save."
+msgstr "Deaktivér automatisk gemning af indlæg."
+
+#: modules/settings/administration.php:30
+msgid "Footer Stats"
+msgstr "Footer-statistik"
+
+#: modules/settings/administration.php:32
+msgid "Display page loading stats in the footer."
+msgstr "Vis statistik for sideindlæsning i footeren."
+
+#: modules/settings/administration.php:34
+msgid "This will show page loading statistics data (executed queries, load time and used memory) in the admin page footer."
+msgstr "Dette vil vise statistisk data for indlæsning af side (udførte forespørgsler, indlæsningstid og hukommelsesbrug) i footeren på admin-sider."
+
+#: modules/settings/debug.php:1
+msgid "Log File"
+msgstr "Logfil"
+
+#: modules/settings/debug.php:3
+msgid "Log SQL queries executed by the plugin."
+msgstr "Log SQL-forespørgsler, som pluginnet har udført."
+
+#: modules/settings/debug.php:9
+msgid "SQL Queries"
+msgstr "SQL-forespørgsler"
+
+#: modules/settings/debug.php:11
+msgid "Enable logging of SQL queries. This option must be active to all options bellow to work."
+msgstr "Aktivér logning af SQL-forespørgsler. Denne indstilling skal være valgt, hvis alle indstillingerne nedenfor skal kunne vælges."
+
+#: modules/settings/debug.php:15
+msgid "Add SQL queries at the end of the admin pages."
+msgstr "Tilføj SQL-forespørgsler i bunden af admin-sider"
+
+#: modules/settings/debug.php:19
+msgid "Add SQL queries at the end of the blog pages."
+msgstr "Tilføj SQL-forespørgsler i bunden af blogsider"
+
+#: modules/settings/debug.php:24
+msgid "Set minimal user level to see all the executed queries by WordPress."
+msgstr "Sæt mindste brugerniveau for at se alle forespørgslerne, WordPress har udført."
+
+#: modules/settings/debug.php:5
+msgid "For logging to work %s in file %s must be set to %s."
+msgstr "For at logging skal kunne fungere, skal %s i filen %s sættes til %s."
+
+#: modules/settings/debug.php:6
+msgid "Debug data is saved into file set with %s variable in this config file. Default location is %s file in plugin folder, so this file needs to be writable."
+msgstr "Debug-data er gem i en fil, som angives med %s-variablen i denne opsætningsfil. Standardplacering er %s-fil i plugin-mappen, så denne fil må ikke være skrivebeskyttet."
+
+#: modules/settings/integration.php:1
+msgid "Grids Columns"
+msgstr "Gitter-kolonner"
+
+#: modules/settings/integration.php:3
+msgid "Add extra options for the post and page edit panel table."
+msgstr "Tilføj ekstra indstillinger på oversigten i Rediger indlæg og Rediger sider."
+
+#: modules/settings/integration.php:5
+msgid "Add ID column on the post and page edit panel table."
+msgstr "Tilføj id-kolonne på oversigten i Rediger indlæg og Rediger sider."
+
+#: modules/settings/integration.php:7
+msgid "Add sticky status column on the post and page edit panel table."
+msgstr "Tilføj opslagsstatus-kolonne i oversigten på Rediger indlæg og Rediger sider."
+
+#: modules/settings/integration.php:9
+msgid "Add views column on the post and page edit panel table."
+msgstr "Tilføj kolonne med antal visninger i oversigten på Rediger indlæg og Rediger sider."
+
+#: modules/settings/integration.php:11
+msgid "Add ID column on the post categories edit panel table."
+msgstr "Tilføj id-kolonne oversigten på Rediger indlæg."
+
+#: modules/settings/integration.php:13
+msgid "Add ID column on the post tags and custom taxonomies edit panels tables."
+msgstr "Tilføj id-kolonne på indlægstag og egne taksonomier i Rediger indlæg og Rediger sider."
+
+#: modules/settings/integration.php:15
+msgid "Add ID column on the media edit panel table."
+msgstr "Tilføj id-kolonne i oversigten i Mediebibliotek"
+
+#: modules/settings/integration.php:17
+msgid "Add ID column on the links edit panel table."
+msgstr "Tilføj id-kolonne i oversigten i Rediger links."
+
+#: modules/settings/integration.php:19
+msgid "Add ID column on the users edit panel table."
+msgstr "Tilføj id-kolonne i oversigten i Brugere"
+
+#: modules/settings/integration.php:21
+msgid "Add column with comments count on the users edit panel table."
+msgstr "Tilføj kolonne med antal kommentarer i oversigten i Brugere"
+
+#: modules/settings/integration.php:23
+msgid "Add display name column on the users edit panel table."
+msgstr "Tilføj kolonne med visningsnavn i oversigten i Brugere."
+
+#: modules/settings/integration.php:26
+msgid "Grids Rows"
+msgstr "Rækker i indlægs-/side-gitteret"
+
+#: modules/settings/integration.php:30
+msgid "Number of posts in grid on edit posts panel"
+msgstr "Antal indlæg i oversigten på Redigér indlæg-siden"
+
+#: modules/settings/integration.php:35
+msgid "Enter 0 or less to disable modification."
+msgstr "Indtast 0 eller mindre for at deaktivere modificering."
+
+#: modules/settings/integration.php:38
+msgid "Descriptions"
+msgstr "Beskrivelser"
+
+#: modules/settings/integration.php:40
+msgid "Allow saving HTML for tag, category and term descriptions, link description and notes and user description."
+msgstr "Tillad at gemme HTML i beskrivelser af tags, kategorier og termer, i beskrivelser af og noter til links og i beskrivelse af brugere."
+
+#: modules/settings/integration.php:41
+msgid "By default WordPress strips all HTML elements from these fields."
+msgstr "Som standard fjerner WordPress alle HTML-elementer fra disse felter."
+
+#: modules/settings/integration.php:43
+msgid "Allow HTML in description for category, tag or custom taxonomy term."
+msgstr "Tillad HTML i beskrivelserne af kategorier, tags eller egne taksonomitermer."
+
+#: modules/settings/integration.php:45
+msgid "Allow HTML in description for links."
+msgstr "Tillad HTML i beskrivelser af links."
+
+#: modules/settings/integration.php:47
+msgid "Allow HTML in note for links."
+msgstr "Tillad HTML i noter til links."
+
+#: modules/settings/integration.php:49
+msgid "Allow HTML in biographical info for user."
+msgstr "Tillad HTML i brugernes biografiske infos."
+
+#: modules/settings/php.php:1
+msgid "Memory Limits"
+msgstr "Memory Limits (hukommelsesbegrænsning)"
+
+#: modules/settings/php.php:6
+msgid "Memory allocated by PHP"
+msgstr "Memory allocated by PHP (hukommelse tildelt af PHP)"
+
+#: modules/settings/php.php:14
+msgid "Modifying these settings can have negative impact on your server and website performance. If you are not sure what you doing, don't change these values."
+msgstr "Hvis du ændrer på disse indstillinger, kan det have negativ indflydelse på din servers og websteds ydelse. Hvis du ikke er sikker på, hvad du gør, så lad være at ændre disse værdier."
+
+#: modules/settings/rss.php:1
+msgid "RSS Feeds"
+msgstr "RSS-feeds"
+
+#: modules/settings/rss.php:3
+msgid "Disable all RSS feeds."
+msgstr "Deaktivér alle RSS-feeds."
+
+#: modules/settings/rss.php:6
+msgid "Deleyed Posting"
+msgstr "Udskudt udgivelse"
+
+#: modules/settings/rss.php:11
+msgid "Delayed posting for RSS feeds"
+msgstr "Udskudt udgivelse af RSS-feeds"
+
+#: modules/settings/rss.php:14
+msgid "minutes"
+msgstr "minutter"
+
+#: modules/settings/rss.php:19
+msgid "With this option active, when you publish new post this post will be part of the RSS feed after number of minutes specified."
+msgstr "Når du udgiver et nyt indlæg, vil indlægget blive en del af RSS-feedet, når det angivne antal minutter er gået, hvis denne indstilling er aktiveret."
+
+#: modules/settings/rss.php:20
+msgid "This will give you enought time to discover potential errors in the post."
+msgstr "Det vil give dig nok tid til at opdage eventuelle fejl i indlægget."
+
+#: modules/settings/rss.php:23
+msgid "Expand RSS Items"
+msgstr "Udvid RSS-nyheder"
+
+#: modules/settings/rss.php:25
+msgid "Insert content before RSS feed item"
+msgstr "Indsæt indholdet (nedenfor) i feedet før RSS-nyheden"
+
+#: modules/settings/rss.php:28
+msgid "Insert content after RSS feed item"
+msgstr "Indsæt indholdet (nedenfor) i feedet efter RSS-nyheden"
+
+#: modules/settings/security.php:1
+#: gd-press-tools.php:749
+msgid "Header"
+msgstr "Header"
+
+#: modules/settings/security.php:3
+msgid "Remove WordPress version."
+msgstr "Fjern WordPress-version."
+
+#: modules/settings/security.php:5
+msgid "Remove Really Simple Discovery link from header."
+msgstr "Fjern Really Simple Discovery-link fra header."
+
+#: modules/settings/security.php:7
+msgid "Remove Windows Live Writer link from header."
+msgstr "Fjern Windows Live Writer-link fra header."
+
+#: modules/settings/security.php:10
+msgid "Login"
+msgstr "Logind"
+
+#: modules/settings/security.php:12
+msgid "Remove error messages from login screen."
+msgstr "Fjern fejlmeddelelser fra logind-skærmen."
+
+#: modules/settings/security.php:15
+msgid "Authorization"
+msgstr "Adgangstilladelse"
+
+#: modules/settings/security.php:17
+msgid "Prevent website access if the user is not logged in."
+msgstr "Nægt adgang til webstedet, hvis brugeren ikke er logget ind."
+
+#: modules/settings/security.php:20
+msgid "Plugin Update"
+msgstr "Pluginopdatering"
+
+#: modules/settings/security.php:22
+msgid "Report basic usage data that will be used for statistical purposes only."
+msgstr "Rapportér grundlæggende anvendelsesdata, som kun vil blive brugt til statistik."
+
+#: modules/settings/security.php:24
+msgid "This report will include your WordPress version and website URL. Report will be sent only when plugin needs to be updated."
+msgstr "Rapporten inkluderer WordPress-version og website-URL'en. Rapporten sendes kun, når pluginnet bør opdateres."
+
+#: modules/settings/shorturl.php:2
+msgid "Shortening URL's"
+msgstr "Forkortelse af URL'er"
+
+#: modules/settings/shorturl.php:4
+msgid "Activate shortening URL's service."
+msgstr "Aktivér service, der forkorter URL'er"
+
+#: modules/settings/shorturl.php:9
+msgid "URL format"
+msgstr "URL-format"
+
+#: modules/settings/shorturl.php:14
+msgid "Prefix for creating URL"
+msgstr "Præfix for oprettelse af URL"
+
+#: modules/settings/shorturl.php:18
+msgid "only letters are allowed."
+msgstr "kun bogstaver er tilladte."
+
+#: modules/settings/shorturl.php:19
+msgid "URL will look like this"
+msgstr "URL'en vil se ca. sådan ud"
+
+#: modules/settings/shorturl.php:6
+msgid "For this to work, you must use permalinks feature build in the Wordpress."
+msgstr "For at virke kræver denne funktion, at du bruger WordPress' indbyggede permalinks."
+
+#: modules/settings/tracking.php:1
+msgid "Posts &amp; Pages Views"
+msgstr "Indlægs- &amp; sidevisninger"
+
+#: modules/settings/tracking.php:3
+msgid "Posts and Pages view tracking active."
+msgstr "Sporing af indlægs- og sidevisninger aktiv."
+
+#: modules/settings/tracking.php:8
+#: modules/settings/tracking.php:47
+msgid "Track posts."
+msgstr "Sporing af indlæg."
+
+#: modules/settings/tracking.php:12
+#: modules/settings/tracking.php:51
+msgid "Track pages."
+msgstr "Sporing af sider."
+
+#: modules/settings/tracking.php:17
+msgid "Track registered users."
+msgstr "Sporing af registrerede brugere."
+
+#: modules/settings/tracking.php:21
+msgid "Track visitors."
+msgstr "Sporing af besøgende."
+
+#: modules/settings/tracking.php:29
+#: modules/settings/tracking.php:59
+msgid "Ignore Users"
+msgstr "Ignorér brugere"
+
+#: modules/settings/tracking.php:34
+#: modules/settings/tracking.php:64
+msgid "list comma separated users id's"
+msgstr "anfør brugerid'er som liste adskilt af kommaer"
+
+#: modules/settings/tracking.php:40
+msgid "Users Browsing"
+msgstr "Brugernes besøg på bloggen"
+
+#: modules/settings/tracking.php:42
+msgid "Track posts and pages registered users are visiting."
+msgstr "Spor indlæg og sider, som registrerede bruger får vist."
+
+#: modules/settings/widgets.php:1
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+#: modules/settings/widgets.php:5
+msgid "Widget with some additional statistical info."
+msgstr "Widget med nogle yderligere statistiske informationer."
+
+#: modules/settings/widgets.php:10
+msgid "Set minimal user level to see the widget for each widget individually."
+msgstr "Sæt mindste brugerniveau for at se widgetten for hver enkelt widget hver for sig."
+
+#: modules/settings/widgets.php:13
+msgid "Post Editor"
+msgstr "Indlægseditor"
+
+#: modules/settings/widgets.php:15
+msgid "Add options widget to post and page edit panel."
+msgstr "Tilføj indstillings-widget på oversigten i Rediger indlæg og Rediger sider."
+
+#: modules/widgets/dashboard.php:15
+msgid "Additional Statistics Info"
+msgstr "Yderligere statistisk information"
+
+#: modules/widgets/dashboard.php:26
+msgid "Revisions for all published posts"
+msgstr "Revisioner af alle udgivne indlæg"
+
+#: modules/widgets/dashboard.php:29
+#: modules/widgets/dashboard.php:38
+msgid "delete"
+msgstr "slet"
+
+#: modules/widgets/dashboard.php:35
+msgid "Spam comments"
+msgstr "Spam kommentarer"
+
+#: modules/widgets/dashboard.php:44
+msgid "Overhead for all database tables"
+msgstr "\"Spildplads\" i alle database-tabellerne"
+
+#: modules/widgets/dashboard.php:47
+msgid "cleanup"
+msgstr "rens"
+
+#: modules/widgets/dashboard.php:55
+msgid "Posts &amp; Pages Tracking"
+msgstr "Sporing af indlæg &amp; sider"
+
+#: modules/widgets/dashboard.php:60
+#: gd-press-tools.php:1066
+msgid "Views"
+msgstr "Visninger"
+
+#: modules/widgets/dashboard.php:61
+msgid "tracking posts and pages"
+msgstr "sporing af indlæg og sider"
+
+#: modules/widgets/dashboard.php:62
+#: modules/widgets/dashboard.php:68
+msgid "ON"
+msgstr "TIL"
+
+#: modules/widgets/dashboard.php:63
+#: modules/widgets/dashboard.php:69
+msgid "OFF"
+msgstr "FRA"
+
+#: modules/widgets/dashboard.php:66
+msgid "Users"
+msgstr "Brugere"
+
+#: modules/widgets/dashboard.php:67
+msgid "tracking users website browsing"
+msgstr "sporing af de besøgendes brug af sitet"
+
+#: modules/widgets/dashboard.php:75
+msgid "Press Tools Quick Access"
+msgstr "Press Tools Kvikadgang"
+
+#: modules/widgets/dashboard.php:81
+msgid "all additional WordPress settings"
+msgstr "alle yderligere WordPress-indstillinger"
+
+#: modules/widgets/dashboard.php:82
+#: modules/widgets/dashboard.php:87
+#: modules/widgets/dashboard.php:92
+#: modules/widgets/dashboard.php:3
+msgid "show"
+msgstr "vis"
+
+#: modules/widgets/dashboard.php:85
+msgid "Enviroment"
+msgstr "Environment"
+
+#: modules/widgets/dashboard.php:86
+msgid "panel with PHP and mySQL information"
+msgstr "panel med PHP- og MySQL-information"
+
+#: modules/widgets/dashboard.php:90
+msgid "Scheduler"
+msgstr "Planlægger"
+
+#: modules/widgets/dashboard.php:91
+msgid "all scheduled cron jobs"
+msgstr "alle planlagte cron-jobs"
+
+#: modules/widgets/dashboard.php:4
+msgid "hide"
+msgstr "skjul"
+
+#: modules/admin.php:7
+#: modules/settings.php:13
+#: gd-press-tools.php:669
+msgid "Administration"
+msgstr "Administration"
+
+#: modules/admin.php:10
+msgid "Username"
+msgstr "Brugernavn"
+
+#: modules/admin.php:13
+msgid "Change the username for your account. If the change is successful, you will be logged out and you need to login back using new username."
+msgstr "Ændr brugernavnet for din konto. Hvis ændringen bliver gennemført, vil du blive logget ud. Du skal da logge ind igen med det nye brugernavn."
+
+#: modules/admin.php:15
+msgid "Change"
+msgstr "Ændr"
+
+#: modules/admin.php:17
+msgid "Plugin will change username value in following tables"
+msgstr "Pluginnet vil ændre brugernavnet i følgende tabeller"
+
+#: modules/admin.php:18
+msgid "and"
+msgstr "og"
+
+#: modules/admin.php:22
+msgid "Cached RSS Feeds"
+msgstr "Cachet RSS-feeds"
+
+#: modules/admin.php:25
+msgid "Delete all RSS cached content."
+msgstr "Slet al cachet RSS-indhold."
+
+#: modules/admin.php:28
+msgid "RSS feeds are stored into options database table. Number of feeds and their data can grow out of control, so it's safe to clean it from time to time."
+msgstr "RSS-feeds er gemt i databasetabellen for indstillinger. Antal feeds og deres data kan komme ud af kontrol. Det er sikkert nok at rydde op fra tid til anden."
+
+#: modules/admin.php:32
+msgid "Reset Widgets"
+msgstr "Nulstil widgets"
+
+#: modules/admin.php:35
+msgid "Reset all sidebars, and remove all widgets from them."
+msgstr "Nulstil alle sidepaneler og fjern alle widgets fra dem."
+
+#: modules/admin.php:36
+msgid "Reset"
+msgstr "Nulstil"
+
+#: modules/admin.php:38
+msgid "Use this if you change themes with different number of sidebars and single instance widgets."
+msgstr "Brug dette, hvis du skifter til temaer med forskelligt antal sidepaneler og widgets, der kun kan bruges én gang."
+
+#: modules/admin.php:42
+msgid "Folder Protection"
+msgstr "Mappe-beskyttelse"
+
+#: modules/admin.php:47
+msgid "Protect"
+msgstr "Beskyt"
+
+#: modules/admin.php:49
+msgid "For this to work all these folders must be writable so the plugin can create new files."
+msgstr "Dette kræver, at der skal være skriveadgang til alle disse mapper, så pluginnet kan oprette nye filer."
+
+#: modules/admin.php:53
+msgid "Rescan Avatars"
+msgstr "Scan avatars igen"
+
+#: modules/admin.php:56
+msgid "Scan avatars folder to find new images."
+msgstr "Scan avatars-mappen for at finde nye billeder."
+
+#: modules/admin.php:57
+msgid "Avatars folder:"
+msgstr "Avatars-mappe:"
+
+#: modules/admin.php:58
+msgid "Rescan"
+msgstr "Rescan"
+
+#: modules/admin.php:60
+msgid "Use this if you added new avatar images. Plugin is performing auto scan when new version is installed."
+msgstr "Brug denne funktion, hvis du har tilføjet nye avatar-billeder. Pluginnet foretager automatisk en scanning, når en ny version installeres."
+
+#: modules/admin.php:45
+msgid "Add %s file with redirection to a home page as a mean of protection agains direct access to some folders. File will be added to following folders if needed:"
+msgstr "Tilføj en %s-fil med viderestilling til en hjemmeside som beskyttelse mod direkte adgang til udvalgte mapper. En fil vil om nødvendigt blive tilføjet til følgende mapper:"
+
+#: modules/cron.php:2
+msgid "Are you sure that you want to do this?"
+msgstr "Er du sikker på, du vil gøre dette?"
+
+# tjek
+#: modules/cron.php:6
+#: gd-press-tools.php:674
+msgid "Cron Scheduler"
+msgstr "Cron-jobplanlægger"
+
+#: modules/cron.php:9
+msgid "Jobs"
+msgstr "Jobs"
+
+#: modules/cron.php:14
+msgid "Time"
+msgstr "Tidspunkt"
+
+#: modules/cron.php:15
+#: modules/wp_hooks.php:33
+msgid "Function"
+msgstr "Funktion"
+
+# tjek
+#: modules/cron.php:16
+msgid "Schedule"
+msgstr "Planlæg job"
+
+#: modules/cron.php:17
+msgid "Interval"
+msgstr "Interval"
+
+#: modules/cron.php:50
+msgid "Deleting cron jobs is not reccomended if you are not sure what exactly are these jobs used for. Usually, job removal is not reversible."
+msgstr "Det anbefales ikke at slette cron-jobs, hvis du ikke er sikker på, nøjagtigt hvad disse jobs udfører. Sædvanligvis kan man ikke fortryde, hvis man fjerner et job."
+
+#: modules/cron.php:51
+msgid "In some cases plugins can leave cron jobs after plugin removal, and these jobs are safe to remove."
+msgstr "I nogle tilfælde sker det, at plugins efterlader cron-jobs efter at være fjernet. Disse jobs kan man roligt slette."
+
+#: modules/cron.php:35
+msgid "unschedule"
+msgstr "fjern job"
+
+#: modules/cron.php:36
+msgid "run now"
+msgstr "kør nu"
+
+#: modules/db.php:26
+msgid "Are you sure that you want to DROP this table? Operation is not reversible."
+msgstr "Er du sikker på, du vil <em>slette</em> denne tabel? Handlingen kan ikke fortrydes."
+
+#: modules/db.php:30
+msgid "Are you sure taht you want to EMPTY this table? Operation is not reversible."
+msgstr "Er du sikker på, du vil <em>tømme</em> denne tabel? Handlingen kan ikke fortrydes."
+
+#: modules/db.php:34
+#: gd-press-tools.php:673
+msgid "Database"
+msgstr "Database"
+
+#: modules/db.php:38
+msgid "Tables"
+msgstr "Tabeller"
+
+#: modules/db.php:40
+msgid "Tools"
+msgstr "Værktøjer"
+
+#: modules/front.php:8
+msgid "a wordpress administration addon"
+msgstr "udvidelse af WordPress-administrationen"
+
+#: modules/meta.php:1
+msgid "Meta tags settings are saved."
+msgstr "Indstillinger for metatags er gemt."
+
+#: modules/meta.php:5
+#: gd-press-tools.php:672
+msgid "Meta Tags"
+msgstr "Metatags"
+
+#: modules/meta.php:8
+msgid "General"
+msgstr "Generelt"
+
+#: modules/meta.php:9
+msgid "Robots"
+msgstr "Robotter"
+
+#: modules/posts.php:5
+#: gd-press-tools.php:670
+msgid "Posts"
+msgstr "Indlæg"
+
+#: modules/posts.php:8
+#: gd-press-tools.php:1048
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: modules/posts.php:11
+msgid "Close comments and/or pings on posts older than selected date."
+msgstr "Luk kommentarer og/eller pings til indlæg ældre end valgte dato."
+
+#: modules/posts.php:12
+msgid "Close comments."
+msgstr "Luk kommentarer."
+
+#: modules/posts.php:14
+msgid "Close pings."
+msgstr "Luk pings."
+
+#: modules/posts.php:17
+msgid "For posts published before"
+msgstr "For indlæg udgivet før"
+
+#: modules/posts.php:21
+msgid "Close"
+msgstr "Luk"
+
+#: modules/posts.php:28
+msgid "Remove all revision for published posts and pages."
+msgstr "Fjern alle revisioner af udgivne indlæg og sider."
+
+#: modules/posts.php:29
+msgid "Total number of revisions found"
+msgstr "Det samlede antal revisioner fundet"
+
+#: modules/posts.php:32
+msgid "Last revisions removal"
+msgstr "Fjernelse af seneste revisioner"
+
+#: modules/posts.php:36
+msgid "Delete Posts"
+msgstr "Slet indlæg"
+
+#: modules/posts.php:39
+msgid "Delete all posts older than selected date. This will delete posts, post terms relationships, post meta data, comments for those posts and revisions."
+msgstr "Slet alle indlæg ældre end valgte dato. Dette vil slette indlæg, indlæggenes termrelationer, meta-data, kommentarerne til disse indlæg og revisionerne."
+
+#: modules/posts.php:42
+msgid "Delete posts published before"
+msgstr "Slet indlæg udgivet før"
+
+#: modules/posts.php:48
+msgid "Operation is not reversible. Backup your data before proceeding."
+msgstr "Handlingen kan ikke fortrydes. Tag en sikkerhedskopi, før du fortsætter."
+
+#: modules/server.php:1
+msgid "Full Server Info"
+msgstr "Fuld information om server"
+
+#: modules/server.php:5
+msgid "PHP Info"
+msgstr "PHP-info"
+
+#: modules/server.php:6
+msgid "PHP Constants"
+msgstr "PHP-konstanter"
+
+#: modules/server.php:7
+msgid "mySQL Info"
+msgstr "MySQL-info"
+
+#: modules/settings.php:1
+msgid "Settings saved."
+msgstr "Indstillingerne gemt"
+
+#: modules/settings.php:9
+msgid "Integration"
+msgstr "Integration"
+
+#: modules/settings.php:11
+msgid "Widgets"
+msgstr "Widgets"
+
+#: modules/settings.php:12
+msgid "Security"
+msgstr "Sikkerhed"
+
+#: modules/settings.php:14
+msgid "Tracking"
+msgstr "Sporing"
+
+#: modules/settings.php:15
+msgid "Debug"
+msgstr "Debug"
+
+#: modules/settings.php:16
+msgid "RSS"
+msgstr "RSS"
+
+#: modules/settings.php:17
+msgid "PHP"
+msgstr "PHP"
+
+#: modules/tagger.php:1
+#: gd-press-tools.php:671
+msgid "Auto Tagger"
+msgstr "Auto-tagger"
+
+#: modules/tagger.php:4
+msgid "Tagger"
+msgstr "Tagger"
+
+#: modules/tagger.php:7
+msgid "Parse posts and/or pages and search for new tags using Yahoo Term Extraction API."
+msgstr "Parse indlæg og/eller sider og søg efter nye tags ved hjælp af Yahoo Term Extraction API."
+
+#: modules/tagger.php:8
+msgid "Operation will run as a scheduled job in the background because it will take a lot of time depending on the number of posts."
+msgstr "Handlingen vil køre som et planlagt job i baggrunden, fordi det vil tage meget lang tid afhængig af antal indlæg."
+
+#: modules/tagger.php:12
+msgid "Search and tag posts."
+msgstr "Søg og tag indlæg."
+
+#: modules/tagger.php:13
+msgid "Search and tag pages."
+msgstr "Søg og tag sider."
+
+#: modules/tagger.php:16
+msgid "Maximum number of tags to add"
+msgstr "Max antal tags, der må tilføjes"
+
+#: modules/tagger.php:20
+msgid "Post ID range to process"
+msgstr "Interval af indlægsid&#39;er, der skal behandles"
+
+#: modules/tagger.php:23
+msgid "to"
+msgstr "til"
+
+#: modules/tagger.php:29
+msgid "Leave 0 to ignore range"
+msgstr "Indtast 0 for intet interval"
+
+#: modules/tagger.php:34
+msgid "Run"
+msgstr "Udfør"
+
+#: modules/tagger.php:36
+msgid "Due to the complexity of the requests for results, this tool requires cURL."
+msgstr "Fordi resultatanmodningerne er meget komplekse, kræver denne proces cURL."
+
+#: modules/tagger.php:45
+msgid "Auto tagger is currently inactive and not scheduled."
+msgstr "Auto-tagger er inaktiv og ikke planlagt i øjeblikket"
+
+#: modules/tagger.php:48
+msgid "Last tagging started at"
+msgstr "Sidste tagging påbegyndt"
+
+#: modules/tagger.php:50
+msgid "Last tagging ended at"
+msgstr "Sidste tagging endt"
+
+#: modules/tagger.php:52
+#: modules/tagger.php:68
+msgid "Last post ID processed"
+msgstr "Sidst behandlede indlægsid"
+
+#: modules/tagger.php:56
+msgid "Auto tagger is scheduled to run."
+msgstr "Auto-tagger er planlagt til udførelse."
+
+#: modules/tagger.php:58
+msgid "Auto tagger is running."
+msgstr "Autotagger kører i øjeblikket."
+
+#: modules/tagger.php:60
+msgid "Maximum tags to add per post"
+msgstr "Max tags, der må tilføjes per indlæg"
+
+#: modules/tagger.php:62
+msgid "Operation started at"
+msgstr "Handling påbegyndt"
+
+#: modules/tagger.php:64
+msgid "Total posts to process"
+msgstr "Indlæg i alt, der skal behandles"
+
+#: modules/tagger.php:66
+msgid "Processed posts so far"
+msgstr "Behandlede indlæg til nu"
+
+#: modules/tagger.php:70
+msgid "Number of tags retrieved"
+msgstr "Antal tags hentet"
+
+#: modules/tagger.php:74
+msgid "Abort"
+msgstr "Afbryd"
+
+#: modules/wp_hooks.php:1
+msgid "WordPress Hooks"
+msgstr "WordPress-hooks"
+
+#: modules/wp_hooks.php:31
+msgid "Hook"
+msgstr "Hook"
+
+#: modules/wp_hooks.php:32
+msgid "Object"
+msgstr "Objekt"
+
+#: modules/wp_hooks.php:34
+msgid "Priority"
+msgstr "Prioritet"
+
+#: modules/wp_hooks.php:35
+msgid "Arguments"
+msgstr "Argumenter"
+
+#: gd-press-tools.php:755
+#: gd-press-tools.php:813
+msgid "Thank you for using"
+msgstr "Tak, fordi du bruger"
+
+#: gd-press-tools.php:757
+#: gd-press-tools.php:815
+msgid "administration addon plugin"
+msgstr "Plugin til udvidet administration"
+
+#: gd-press-tools.php:303
+#: gd-press-tools.php:1109
+msgid "Duplicate"
+msgstr "Dublet"
+
+#: gd-press-tools.php:305
+#: gd-press-tools.php:1110
+msgid "Are you sure that you want to delete revisions for this post?"
+msgstr "Er du sikker på, du vil slette revisionerne for dette indlæg?"
+
+#: gd-press-tools.php:305
+#: gd-press-tools.php:1110
+msgid "Delete Revisions"
+msgstr "Slet revisioner"
+
+#: gd-press-tools.php:666
+msgid "Enviroment Info"
+msgstr "Environment-info"
+
+#: gd-press-tools.php:668
+msgid "WP Hooks"
+msgstr "WP-hooks"
+
+#: gd-press-tools.php:744
+msgid "Executed Queries"
+msgstr "Udførte forespørgsler"
+
+#: gd-press-tools.php:746
+msgid "Used memory"
+msgstr "Brugt hukommelse"
+
+#: gd-press-tools.php:747
+msgid "Load"
+msgstr "Indlæs"
+
+#: gd-press-tools.php:748
+msgid "Init"
+msgstr "Init"
+
+#: gd-press-tools.php:750
+msgid "Footer"
+msgstr "Footer"
+
+#: gd-press-tools.php:751
+#: gd-press-tools.php:818
+msgid "Page generated in"
+msgstr "Side genereret på"
+
+#: gd-press-tools.php:752
+#: gd-press-tools.php:818
+msgid "seconds."
+msgstr "sekunder."
+
+#: gd-press-tools.php:801
+msgid "Call originated from"
+msgstr "Kald kom fra"
+
+#: gd-press-tools.php:802
+msgid "Execution time"
+msgstr "Kørselstid"
+
+#: gd-press-tools.php:819
+msgid "Total memory used"
+msgstr "Hukommelsesforbrug i alt"
+
+#: gd-press-tools.php:820
+msgid "Total number of queries"
+msgstr "Det samlede antal forespørgsler"
+
+#: gd-press-tools.php:821
+msgid "Total execution time"
+msgstr "Samlet kørselstid"
+
+#: gd-press-tools.php:821
+msgid "seconds"
+msgstr "sekunder"
+
+#: gd-press-tools.php:835
+#: gd-press-tools.php:840
+msgid "Additional Options"
+msgstr "Yderligere indstillinger"
+
+#: gd-press-tools.php:1049
+msgid "Display Name"
+msgstr "Vist navn"
+
+#: gd-press-tools.php:1065
+msgid "Sticky"
+msgstr "Opslag"
+
+#: gd-press-tools.php:1092
+msgid "Yes"
+msgstr "Ja"
+
+#: gd-press-tools.php:1102
+msgid "total"
+msgstr "i alt"
+
+#: gd-press-tools.php:1103
+msgid "users"
+msgstr "Brugere"
+
+#: gd-press-tools.php:1104
+msgid "visitors"
+msgstr "besøgende"
+
+#: gd-press-tools.php:1419
+msgid "Deleted %s posts and %s comments."
+msgstr "Slettede %s indlæg og %s kommentarer."
+
+#~ msgid "Post Custom Fields"
+#~ msgstr "Egne indlægsfelter"
+#~ msgid "User Custom Fields"
+#~ msgstr "Egne bruger-felter"
+#~ msgid "development home with svn"
+#~ msgstr "Hjemmeside for udvikling, med svn"
+#~ msgid "Extras"
+#~ msgstr "Andet"
+#~ msgid "PHP Settings"
+#~ msgstr "PHP-indstillinger"
+#~ msgid "Press Tools"
+#~ msgstr "Press Tools"
+#~ msgid "Add revisions column on the post and page edit panel table."
+#~ msgstr ""
+#~ "Tilføj revisioner-kolonne på redigeringspanel-tabellen for indlæg og "
+#~ "sider."
+#~ msgid "basic plugin class and wizard"
+#~ msgstr "Basal plugin class og guide"
+#~ msgid "Number of posts in grid on edit posts/pages"
+#~ msgstr "Antal indlæg i artikeloversigten på Redigér indlæg/sider"
+#~ msgid "cleanup database"
+#~ msgstr "ryd op i databasen"
+#~ msgid "open panel"
+#~ msgstr "åbn panel"
+#~ msgid "Plugin Info"
+#~ msgstr "Plugin-info"
+#~ msgid "GD Press Tools"
+#~ msgstr "GD Press Tools"
+#~ msgid "Editor Grids"
+#~ msgstr "Editor-artikeloversigt"
+

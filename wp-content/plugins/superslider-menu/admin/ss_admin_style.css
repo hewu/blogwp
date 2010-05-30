@@ -1,0 +1,58 @@
+.ss_label
+{
+	border: 1px solid silver;
+	padding: 4px;
+	margin: 2px 4px;
+	float: left;
+	width: 22%;
+	height: 2.1em;
+}
+
+.ss_label input { margin: 0px 4px; }
+
+.ss_label input[type="text"]
+{
+	background: #b6e8f9;
+	line-height: 0.8em;
+	padding: 1px 0px 1px 3px;
+	border: 1px solid #6f8e99;
+}
+#ssslider .ss-tabs-panel {
+	border-width: 1px;
+	border-style: solid; 
+	border-color: #666;
+	padding: 0px 10px 10px 10px;
+}
+#ssslider .ui-tabs-nav {
+    margin-bottom: -1px;
+    background: #4c8fc7;
+    padding: 8px 5px 0px 5px;
+    border: 1px solid #666;
+    border-bottom: 0px solid #666;
+    -moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+#ssslider .ui-tabs-selected {
+    border-bottom: 1px solid #ffffff;
+    background: #fff;
+}
+#ssnav li{
+    display: inline-block;
+    padding: 4px 6px;
+    border: 1px solid #666;
+    background: #e2e2e2;
+    margin: 0px;
+    -moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+    
+}

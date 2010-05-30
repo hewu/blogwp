@@ -1,0 +1,159 @@
+/* @groupmulti Accordion */
+
+.ss_menu h2 { 
+	text-align: left; 
+	border-bottom: 2px solid #5091c9;
+	padding: 6px;
+	margin: 0px;
+	}
+	
+#ssMenuHolder {
+	position: relative;
+	}
+	
+#ssMenuList{
+	margin: 0px;
+	padding-right: 0px;
+	border: 1px solid #5091C9;
+	text-transform: capitalize;
+}
+#navArrow {
+	background-image: url('nav_arrow.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	right: 0px;
+	width: 10px;
+    }
+
+.ssmToggleBar{ padding: 4px;}
+.postCount{ color: #5fc3f4;}
+
+#ssMenuList .ssMore {
+	background-image: url('nav_arrows.png');
+	background-repeat: no-repeat;
+	background-position: right 0px;
+    font-style:italic;
+    padding-right:24px;
+    text-align:right;
+}
+#ssMenuList .ssMore:hover {
+    background-position: right -30px;
+}
+	
+#ssMenuList a{
+    }
+ 
+.ssMenuPost { 
+	display: block; 
+	padding: 6px 2px 4px 20px;
+	border-bottom:1px solid #D6D9EB;
+	}	
+.showme_2 .ssMenuPost { padding: 6px 2px 4px 24px;}
+.showme_2 .ssmToggleBar { margin-left: 4px; border-left: 1px solid #5091c9;}
+
+
+.showme_3 .ssMenuPost { padding: 6px 2px 4px 24px;}
+.showme_3 { margin-left: 4px; border-left: 1px solid #5091c9;}
+
+#ssMenuList .catLink { padding: 0px 0px; }
+
+#ssMenuList .linkList { 
+    border-left:1px solid #5091C9;
+    margin:0 0 0 4px;
+    padding: 0px;
+    }
+
+.menuRss { margin-left: 4px; font-size: 8px; padding-right: 0px;}
+
+/* This is the open close arrows */
+.subsym {
+	background-image: url('nav_arrows.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding: 5px 10px ;
+	cursor: pointer;
+	}
+	
+.subsym:link {background-position: 0 0;}
+.subsym:visited {background-position: 0 0;}
+.subsym:hover {background-position: 0 -30px;}
+
+#ssMenuList .open {	
+	background-image: url('nav_arrows.png');
+	background-repeat: no-repeat;
+	background-position: 0 -60px;
+	padding: 5px 10px ;}
+	
+#ssMenuList .open:link {background-position: 0 -60px;}
+#ssMenuList .open:visited {background-position: 0 -60px;}
+#ssMenuList .open:hover {background-position: 0 -90px;}
+
+/* This is the toggler bar animation destinations */
+.tabopen { 
+    border-bottom: 1px solid #5091c9;
+    border-top: 4px solid #5091c9;
+    padding: 6px 0px;
+    }
+.tabclosed { 
+    border-bottom: 0px solid #5091c9;
+    border-top: 1px solid #5091c9;
+    padding: 6px 0px;
+    }
+    
+.linkslist {
+    
+    }
+
+.linkslist .ssmToggleBar {
+    padding-left: 30px;
+    background-position: 10px -60px;
+    }
+
+/* This is the active page*/
+div#active_nav {
+	font-weight: bold;
+	border-left: 5px solid #5091c9;
+	border-top: 5px solid #5091c9; 
+    }
+
+/* This is the more from cat link when active*/
+span#active_nav {
+    border-top: 1px solid #5091c9; 
+    background: #d1d1d1;
+}
+
+#active_nav.catlink{
+    background-color: transparent; 
+    border-left: 0px solid #fff;
+    }
+
+/* tootip classes */
+.tip-top {
+	width: 280px;
+	height: 20px;
+	background:transparent url('tooltips/tip-sprite.png') no-repeat scroll -281px 0px;
+    }
+.tip-bottom {
+	width: 280px;
+	height: 20px;
+	background:transparent url('tooltips/tip-sprite.png') no-repeat scroll -562px 0px;
+    }
+.tip {
+    background:transparent url('tooltips/tip-sprite.png') repeat-y scroll 0px 0px;
+	color: #5091c9;
+	width: 280px;
+	
+    }
+.tip-title, .tip-text {
+	font-size: 12px;
+	padding: 2px 30px 3px 10px;
+	text-align: center;
+    }
+.tip-title {
+	font-weight: bold;
+	color: #5091c9;
+	padding-bottom: 6px;
+    }
+.tip-text { 
+    font-style: italic; 
+    }

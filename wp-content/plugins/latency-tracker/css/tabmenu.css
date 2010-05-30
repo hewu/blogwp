@@ -1,0 +1,59 @@
+/***************** TABS ***************/
+.tabmenu
+{
+	width:100%;
+	background:transparent;
+	voice-family:inherit;
+	padding:0;
+}
+
+.tabmenu ul
+{
+	font:bold 13px arial;
+	list-style:none;
+	margin:0 0 0 20px;
+	padding:0;
+}
+
+.tabmenu li
+{
+	display:inline;
+	background:none;
+	margin:0 2px 0 0;
+	padding:0;
+}
+
+.tabmenu a,.tabmenu a:link,.tabmenu a:visited
+{
+	float:left;
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+	letter-spacing:1px;
+	background:#333 url(../img/button.png) repeat-x;
+	border-bottom:1px solid #fff;
+	margin:0 1px 0 0;
+	padding:5px 10px;
+}
+
+.tabmenu a:hover
+{
+	background:#999;
+}
+
+.tabmenu a.selected
+{
+	background:#5190b2 url(../img/button_current.png) repeat-x;
+	border-color:#5190b2;
+}
+
+.tabmenuline
+{
+	clear:both;
+	width:100%;
+	height:5px;
+	line-height:5px;
+	background:#5190b2;
+	margin-bottom:5px;
+	padding:0;
+}

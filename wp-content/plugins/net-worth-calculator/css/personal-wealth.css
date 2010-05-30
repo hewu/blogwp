@@ -1,0 +1,55 @@
+.color_preview {
+	-moz-border-radius: 4px 4px 4px 4px;
+	background-color :#FFFFFF;
+	border: 1px solid #DFDFDF;
+	display: block;
+	float: left;
+	height: 21px;
+	margin: 1px 0 0 2px;
+	width: 21px;
+}
+
+.copy-link {
+	display: inline-block;
+	float: right;
+	margin: 5px 0 0;
+}
+
+.widget-credit {
+	font-size: 0.9em;
+	text-align: right;
+	clear: both;
+	padding: 5px 0;
+	color: #ffffff;
+}
+
+.widget-credit span {
+	background: #5b9edc;
+	padding: 2px 4px;
+}
+
+.widget-credit a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}

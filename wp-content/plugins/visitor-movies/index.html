@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Readme Validator Results</title>
+</head>
+<style type="text/css">
+<!--
+body {
+font-family: Lucida Grande, Verdana, sans-serif;
+}
+
+code {
+font-size: 1.3em
+}
+
+div.success {
+background: #0f0;
+width: 50%;
+margin: 0 auto;
+padding: 1px 10px;
+border: 3px solid #0d0;
+}
+
+div.error {
+padding: 1px 10px;
+margin: 30px auto;
+}
+
+div.error p {
+font-weight: bold;
+}
+
+div.error ul {
+list-style: square;
+}
+
+div.fatal {
+background: #faa;
+border: 3px solid #d00;
+}
+
+div.warning {
+background: #f60;
+border: 3px solid #e40;
+}
+
+div.note {
+background: #5cf;
+border: 3px solid #3ad;
+}
+
+-->
+</style>
+<body>
+	<hr />
+
+	<h1>Visitor Movies</h1>
+
+	<p><em>Did you ever want to know what exactly your visitors are doing on your site? Watch them!</em></p>
+
+	<hr />
+
+	<p>
+		<strong>Contributors:</strong> <a href="http://www.nkuttler.de/">nkuttler</a>, <a href="http://www.nicolaskuttler.de">Nicolas Kuttler (de)</a><br />
+	<strong>Donate link:</strong> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=11041772">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&#038;hosted_button_id=11041772</a> <br />
+	<strong>Tags:</strong> <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">admin</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">plugin</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">usability</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">user tracking</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">marketing</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">analytics</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">clicktracking</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">clixpy</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">clicktale</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">JavaScript</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">jQuery</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">JSON</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">i18n</a>, <a href="http://www.wordpress-dienstleistungen.de/visitor-movies/">internationalized</a>, <br />
+	<strong>Requires at least:</strong> 2.9<br />
+	<strong>Tested up to:</strong> 3.0<br />
+	<strong>Stable tag:</strong> 0.3.1.2	</p>
+
+	<hr />
+
+		<h3>Description</h3>
+	<p>A client of mine wanted a plugin to log what users type into forms. I kind of didn't see the point at first. But a few days later I was a little annoyed that there was apparently no free alternative to websites like clixpy, clicktale and similar services.</p>
+
+<p>It occured to me that recording movies of visits wasn't really hard to do. And so i started a new plugin, loosely based on the unpublished form input tracking plugin.</p>
+
+<p>I am very pleased with the results so far. Of course it's no match for the professional services mentioned above. But it is good enough to gain a few insights into what can be improved on your website.</p>
+
+<p>The recording script is pretty lightweight but has a rather hefty dependeny: jQuery. It also loads json2.js. I'm sure the logging could be rewritten without the jQuery dependency but that really wasn't a priority for the first public release.</p>
+
+<p>This plugin probably needs WordPress 2.8 and PHP 5. I didn't bother to test older versions and won't support them in the future.</p>
+
+<p>Here is a sample movie of what a recorded session can look like. As you can see mouse movements, clicks, form input, select boxes, checkboxes and radio buttons are recorded.</p>
+
+<p>http://www.youtube.com/watch?v=OTv8loMWDPU</p>
+
+<p><strong>Important</strong>: For the playback you should always use the same browser as the visitor. If you don't, the mouse position will probably be very wrong. The plugin also doesn't save a page's state at the time of recording. This means if comments are added or the content changes, you will see the old movements on a new website.</p>
+
+<h4>The daily report</h4>
+
+<p>On the plugin's options page you can see a list of daily reports. Click on one to see the defailed report.</p>
+
+<ul>
+<li>Time: When the user visited the site, server time</li>
+<li>URL: Which page he was on</li>
+<li>Referrer: Where he came from</li>
+<li>IP: Visitor's IP</li>
+<li>Browser: Rendering engine and version</li>
+<li>Duration: How much time the visitor spent on the page, in seconds</li>
+<li>Events: How many events were recorded (clicks, mouse movements, etc.)</li>
+<li>Form: Number of data entry events in forms</li>
+<li>Window Sie: Browser size</li>
+<li>Playback: Two buttons. The first one is the standard, the second one for browsers that don't support resize, like Safari and Chrome.</li>
+</ul>
+
+<h4>Support</h4>
+
+<p>Visit the <a href="http://www.nkuttler.de/2010/05/21/record-movies-of-visitors/">plugin's home page</a> to leave comments, ask questions, etc.</p>
+
+<h4>My plugins</h4>
+
+<p><a href="http://www.nkuttler.de/2010/05/21/record-movies-of-visitors/">Visitor Movies for WordPress</a>: Did you ever want to know what your visitors are really doing on your site? Watch them!</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/custom-avatars-for-comments/">Custom Avatars For Comments</a>: Your visitors will be able to choose from the avatars you upload to your website for each and every comment they make.</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/nktagcloud/">Better tag cloud</a>: I was pretty unhappy with the default WordPress tag cloud widget. This one is more powerful and offers a list HTML markup that is consistent with most other widgets.</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/nkthemeswitch/">Theme switch</a>: I like to tweak my main theme that I use on a variety of blogs. If you have ever done this you know how annoying it can be to break things for visitors of your blog. This plugin allows you to use a different theme than the one used for your visitors when you are logged in.</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/zero-conf-mail/">Zero Conf Mail</a>: Simple mail contact form, the way I like it. No ajax, no bloat. No configuration necessary, but possible.</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/nkmovecomments/">Move WordPress comments</a>: This plugin adds a small form to every comment on your blog. The form is only added for admins and allows you to <a href="http://www.nkuttler.de/nkmovecomments/">move comments</a> to a different post/page and to fix comment threading.</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/delete-pending-comments">Delete Pending Comments</a>: This is a plugin that lets you delete all pending comments at once. Useful for spam victims.</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/nksnow/">Snow and more</a>: This one lets you see snowflakes, leaves, raindrops, balloons or custom images fall down or float upwards on your blog.</p>
+
+<p><a href="http://www.nkuttler.de/wordpress/nkfireworks/">Fireworks</a>: The name says it all, see fireworks on your blog!</p>
+
+<p><a href="http://www.rhymebox.de/blog/rhymebox-widget/">Rhyming widget</a>: I wrote a little online <a href="http://www.rhymebox.com/">rhyming dictionary</a>. This is a widget to search it directly from one of your sidebars.</p>	<hr />
+		<h3>Installation</h3>
+	<p>Unzip, upload to your plugin directory, enable the plugin and configure it as needed.</p>	<hr />
+		<h3>Frequently Asked Questions</h3>
+	<p>Q: Why are there no logs?<br />
+A: Check if your theme has the wp_footer() call, see the [theme development checklist(http://codex.wordpress.org/Theme_Development_Checklist). Check also the percentage option and if there were any visitors.</p>
+
+<p>Q: How does the logging work?<br />
+A: A variety of browser events are logged with the help of jQuery and sent to your server via Ajax. The JavaScript could be modified to work with other CMSes or custom apps.</p>
+
+<p>Q: How does the playback work?<br />
+A: The browser requests the logged data via Ajax and uses jQuery to display the logged events. However, no infomation is saved on what the website looked like when the user visited it, you will see the user's actions projected on the <strong>current</strong> page.
+You will also see the visitor's action in <strong>your browser</strong>. This could mean that the playback is inaccurate as different browser enginges tend to display things slighty differently. This is less of a problem if your theme was build properly.</p>
+
+<p>Q: Couldn't you add feature X, improve Y, etc?<br />
+A: Sure, you can leave a comment on the plugin's home page, but the plugin is good enough for me at the moment. If you really want a feature contact me for <a href="http://www.nkuttler.de/contact/">professional WordPress services</a>.</p>
+
+<p>Q: Is this secure?<br />
+A: No. An attacker could fill your harddisk with logfiles.</p>	<hr />
+		<h3>Screenshots</h3>
+	<ol>
+<li>The configuration options.</li>
+<li>The daily report table.</li>
+</ol>	<hr />
+		<h3>Changelog</h3>
+	<h4>0.3.1.2 ( 2010-05-24 )</h4>
+
+<ul>
+<li>Use the same domain for plugin and author homepage</li>
+<li>More doc updates</li>
+</ul>
+
+<h4>0.3.1.1 ( 2010-05-22 )</h4>
+
+<ul>
+<li>Fix bug introduced in 0.3.0.5: incorrect log paths before 10am</li>
+<li>Don't chmod directories at all.</li>
+</ul>
+
+<h4>0.3.1 ( 2010-05-22 )</h4>
+
+<ul>
+<li>Make the path to the log dir configurable</li>
+<li>Code cleanup</li>
+</ul>
+
+<h4>0.3.0.5 ( 2010-05-22 )</h4>
+
+<ul>
+<li>Make sure the logger paths are numbers</li>
+</ul>
+
+<h4>0.3.0.4 ( 2010-05-21 )</h4>
+
+<ul>
+<li>Fix for servers that can't chmod log files and directories, reported by Frank.</li>
+</ul>
+
+<h4>0.3.0.3 ( 2010-05-21 )</h4>
+
+<ul>
+<li>Move log directory so that the logs are preserved on automatic upgrades.</li>
+<li>Doc updates</li>
+</ul>
+
+<h4>0.3.0.2 ( 2010-05-21 )</h4>
+
+<ul>
+<li>Fix breakage due to plugin dir rename</li>
+<li>Doc updates</li>
+<li>Add a pot file</li>
+</ul>
+
+<h4>0.3.0 ( 2010-05-21 )</h4>
+
+<ul>
+<li>Public release</li>
+</ul>
+
+<h4>0.2.2 ( 2010-05-19 )</h4>
+
+<ul>
+<li>New feature: Log only a percentage of visitors.</li>
+</ul>
+
+<h4>0.2.1 ( 2010-05-15 )</h4>
+
+<ul>
+<li>New feature: log table sorting</li>
+<li>Log by server time.</li>
+<li>New icons</li>
+<li>Various other improvements.</li>
+</ul>
+
+<h4>0.2.0.2 ( 2010-05-14 )</h4>
+
+<ul>
+<li>More bugfixes and a small logging improvement.</li>
+</ul>
+
+<h4>0.2.0.1 ( 2010-05-14 )</h4>
+
+<ul>
+<li>Some small bugfixes, and add the missing VisitorMovies class file.</li>
+</ul>
+
+<h4>0.2 ( 2010-05-13 )</h4>
+
+<ul>
+<li>Use JSON, separate app logic from WordPress logic, and many other improvements</li>
+</ul>
+
+<h4>0.1.1.2 ( 2010-05-11 )</h4>
+
+<ul>
+<li>Fix flashwin</li>
+</ul>
+
+<h4>0.1.1.1 ( 2010-05-11 )</h4>
+
+<ul>
+<li>Fix logging and playback</li>
+</ul>
+
+<h4>0.1.1 ( 2010-05-11 )</h4>
+
+<ul>
+<li>Split WordPress and VisitorMovies logic</li>
+</ul>
+
+<h4>0.1 ( 2010-05-10 )</h4>
+
+<ul>
+<li>Non-public release</li>
+</ul>	<hr />
+	
+	<h3>Upgrade Notice</h3>
+	<dl>
+		<dt>0.3.1</dt>
+		<dd>You should probably move your log directory outside of the web root</dd>
+		<dt>0.3.0</dt>
+		<dd>First public release</dd>
+	</dl>
+
+	

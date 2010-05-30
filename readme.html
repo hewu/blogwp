@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &rsaquo; 说明</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css" type="text/css" />
+</head>
+<body>
+<h1 id="logo" style="text-align: center">
+	<img alt="WordPress" src="wp-admin/images/wordpress-logo.png" />
+	<br /> Version 2.9.2
+</h1>
+<p style="text-align: center">个人信息发布平台</p>
+
+<h1>开发者的话</h1>
+<p>“WordPress 对我来说是一个具有特殊意义的项目。大家都能为 WordPress 添砖加瓦，因此作为其中一员我十分自豪。开发者和贡献者为 WordPress 奉献了难以估量的时间，我们都在致力于让 WordPress 更加优秀。现在，感谢您也参与其中。”</p>
+<p style="text-align: right;">&#8212; Matt Mullenweg</p>
+
+<h1>WordPress 著名的5分钟快速安装法</h1>
+<ol>
+	<li>将 WordPress 压缩包解压至一个空文件夹。</li>
+	<li>使用任一文本编辑器打开 wp-config-sample.php，填写有关数据库的内容。</li>
+	<li>保存并重命名 wp-config-sample.php 为  <code>wp-config.php</code>。</li>
+	<li>上传整个 WordPress 文件夹至服务器。</li>
+	<li>在浏览器中访问<span class="file"><a href="wp-admin/install.php">/wp-admin/install.php</a></span>，WordPress 会自动建立数据库表。如果出现错误，请仔细检查 <span class="file">wp-config.php</span> 填写的数据库信息。要是依然错误，请前往<a href="http://wordpress.org/support/">支持论坛</a>寻求解决方法。</li>
+	<li><strong>请记住系统生成的后台登录密码。</strong></li>
+	<li>资料填写完毕，安装脚本会带您前往<a href="wp-login.php">登录页面</a>，登录用户名为<code>admin</code>。登录之后点击"用户"选项可以修改密码。</li>
+</ol>
+
+<h1>升级</h1>
+<p>在升级之前，请确保备份旧有数据以及被您修改过的文件，例如<code>index.php</code>。</p>
+<h2>从旧版本升级至 WordPress 2.9.2 的步骤：</h2>
+<ol>
+	<li>删除旧版 WP 文件，记得备份修改过的内容。</li>
+	<li>上传新版 WP 文件。</li>
+	<li>在浏览器中访问 <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>。</span></li>
+	<li>大功告成，就这么简单！</li>
+</ol>
+<h2>模板结构变化</h2>
+<p>如果您曾自己制作或者修改主题，现在可能需要针对新版 WordPress 做出一些改变，这里有份<a href="http://codex.wordpress.org/Upgrade_1.2_to_1.5">指南</a>。</p>
+
+<h1>在线资源</h1>
+<p>若您遇上文档中未有提及的情况，请首先参考我们为您准备的丰富 WordPress 在线资源：</p>
+<dl>
+	<dt><a href="http://codex.wordpress.org/">The WordPress Codex </a></dt>
+		<dd>Codex 是 WordPress 的百科全书。它包含现有版本 WordPress 的海量信息资源。</dd>
+	<dt><a href="http://wordpress.org/development/">WP开发日志</a></dt>
+		<dd>在这里，您将接触到 WordPress 的最新升级信息和相关新闻，建议加入收藏夹。</dd>
+	<dt><a href="http://planet.wordpress.org/">WordPress Planet </a></dt>
+		<dd>WordPress Planet 汇集了全球所有 WordPress 相关的内容。</dd>
+	<dt><a href="http://wordpress.org/support/">WordPress 支持论坛</a></dt>
+		<dd>如果感到束手无策，请将问题提交至 WordPress Support Forums，它有大量的热心的用户和良好的社区氛围。无论求助还是助人，在这里您应该确保自己的问题和答案均准确细致。</dd>
+	<dt><a href="http://codex.wordpress.org/IRC">WordPress IRC 频道</a></dt>
+		<dd>同样，WordPress 也有即时的聊天室用于 WordPress 用户交流以及部分技术支持。IRC 的详细使用方法可以访问前面几个关于技术支持的站点。(<a href="irc://irc.freenode.net/wordpress">irc.freenode.net #wordpress</a>)</dd>
+</dl>
+
+<h1>系统需求</h1>
+<ul>
+	<li><strong>4.3</strong>或更高版本的 PHP 支持。</li>
+	<li><strong>4.1.2</strong> 或更高版本的 MySQL 支持。</li>
+	<li>... 给 <a href="http://wordpress.org/">http://wordpress.org</a> 做一个链接。</li>
+</ul>
+<p>WordPress 是 Michel V. 创建的 <a href="http://cafelog.com/">b2/cafelog</a> 官方后续版本，<a href="http://wordpress.org/about/">WordPress 开发团队</a>将其发展为如今的 WordPress。如果您愿意支持我们的工作，欢迎您对 WordPress 进行<a href="http://wordpress.org/donate/">捐赠</a>。</p>
+
+<h1>从其它平台转换至 WordPress</h1>
+<p>WordPress 支持<a href="http://codex.wordpress.org/Importing_Content">从众多平台导入数据</a>，所以您首先应该按照上面的方法安装 WordPress。</p>
+
+<h1>XML-RPC 和 Atom 接口</h1>
+<p>您可以使用诸如 <a href="http://windowslivewriter.spaces.live.com/">Windows Live Writer</a>, <a href="http://ecto.kung-foo.tv/">Ecto</a>, <a href="http://bloggar.com/">Bloggar</a>, <a href="http://radio.userland.com">Radio Userland</a>(基于Radio 的 email-to-blog 功能), <a href="http://www.newzcrawler.com/">NewzCrawler</a>,等支持 blogging API 的工具更新博客。详情请参阅 Codex 上关于 <a href="http://codex.wordpress.org/XML-RPC_Support">XML-RPC支持</a>的内容。</p>
+
+<h1>用 Email 发布文章</h1>
+<p>您甚至可以通过发送 Email 更新博客！ 有关设置方式请移步后台的"撰写"选项，并填入相关信息和私密 POP3 帐号。之后需要设定 Cron-Jobs 触发 <code>wp-mail.php</code> 检测邮箱。如果服务器不支持 Cron-jobs，也可以采用第三方网站监测服务定期检测服务器上的 <code>wp-mail.php</code>。</p>
+<p>更新很简单：使用任何邮箱发送内容到指定地址均会被 WordPress 自动发表，并以邮件主题作为文章标题，发表后程序自动<em>删除</em>邮件内容。所以该"指定地址"也最好保密并专用。</p>
+
+<h1>用户角色</h1>
+<p>WordPress 2.0 之后的版本加入了更为灵活的用户身份系统，同时移除了之前的用户等级制度。 <a href="http://codex.wordpress.org/Roles_and_Capabilities">到 Codex 阅读关于身份和权限的更多内容</a>。</p>
+
+<h1>最后</h1>
+<ul>
+	<li>对 WordPress 有任何建议、想法、评论或发现 Bug，请加入<a href="http://wordpress.org/support/">支持论坛</a>。</li>
+	<li>WordPress 准备了完善的插件 API 接口方便您进行扩展开发。作为开发人员，如果你有兴趣了解并加以利用，请参阅<a href="http://codex.wordpress.org/Plugin_API">Codex 上的插件文档</a>。请尽量不要更改核心代码。</li>
+</ul>
+
+<h1>分享精神</h1>
+<p>WordPress 没有数百万的市场运作资金，也没有名人赞助。不过我们有更棒的支持，那就是您！如果您喜欢 WordPress，请将它介绍给自己的朋友，或者帮助他人安装一个 WordPress，又或者写一篇赞扬我们的文章。</p>
+
+<h1>版权许可</h1>
+<p>Wordpress 基于 <abbr title="GNU Public License">GPL</abbr> 通用许可协议发布。见(英文) <a href="license.txt">license.txt</a>。</p>
+
+</body>
+</html>

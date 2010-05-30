@@ -1,0 +1,464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD Simple Widget 1.5.4\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nod <contact@nod.pe.kr>\n"
+"Language-Team: Minjae Kim <contact@nod.pe.kr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-Country: KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF\n"
+
+#: admin/info.php:3
+msgid "Info"
+msgstr "정보"
+
+#: admin/info.php:7
+msgid "Version"
+msgstr "판"
+
+#: admin/info.php:8
+msgid "release date"
+msgstr "출시일"
+
+#: admin/info.php:12
+msgid "Change Log"
+msgstr "수정 기록"
+
+#: admin/info.php:13
+msgid "detailed list of changes"
+msgstr "자세한 수정 기록"
+
+#: admin/info.php:14
+msgid "show"
+msgstr "보기"
+
+#: admin/info.php:18
+msgid "Links"
+msgstr "바깥고리"
+
+#: admin/info.php:23
+msgid "official plugin page"
+msgstr "공식 확장기능 페이지"
+
+#: admin/info.php:24
+#: admin/info.php:29
+#: admin/info.php:34
+#: admin/info.php:39
+#: admin/info.php:63
+#: admin/info.php:68
+#: admin/info.php:73
+#: admin/info.php:78
+#: admin/info.php:83
+msgid "visit"
+msgstr "방문"
+
+#: admin/info.php:28
+msgid "discussions group"
+msgstr "의견교환 그룹"
+
+#: admin/info.php:33
+msgid "wordpress plugin page"
+msgstr "워드프레스 확장기능 페이지"
+
+#: admin/info.php:37
+msgid "Donate"
+msgstr "기부"
+
+#: admin/info.php:38
+msgid "help further development"
+msgstr "계속 확장기능을 개발하는데 도움이 됩니다."
+
+#: admin/info.php:43
+msgid "Pro Edition"
+msgstr "유료 판"
+
+#: admin/info.php:47
+#: admin/info.php:61
+msgid "Official Website"
+msgstr "공식 웹사이트"
+
+#: admin/info.php:48
+msgid "extended premium version"
+msgstr "기능이 확장된 유료 판"
+
+#: admin/info.php:62
+msgid "golden dragon official web portal"
+msgstr "골든 드래곤 공식 웹 포탈"
+
+#: admin/info.php:67
+msgid "a wordpress rating system"
+msgstr "워드프레스 평가 시스템"
+
+#: admin/info.php:72
+msgid "wordpress development"
+msgstr "워드프레스 개발"
+
+#: admin/info.php:76
+msgid "Support Forum"
+msgstr "지원 포럼"
+
+#: admin/info.php:77
+msgid "development discussion forum"
+msgstr "개발에 관련된 의견교환 포럼"
+
+#: admin/info.php:82
+msgid "announcements and theme demo"
+msgstr "새 소식과 테마 데모"
+
+#: admin/panel.php:8
+msgid "collection of simple sidebar widgets"
+msgstr "간단한 사이드바 위젯 모음"
+
+#: admin/settings.php:2
+msgid "Available Widgets"
+msgstr "사용가능한 위젯"
+
+#: admin/settings.php:4
+#: admin/settings.php:64
+msgid "Unchecked widgets will not be available on the Widgets panel."
+msgstr "선택하지 않은 위젯은 위젯 설정에서 이용할 수 없습니다."
+
+#: admin/settings.php:51
+msgid "is required."
+msgstr "를 설치하셔야 됩니다."
+
+#: admin/settings.php:57
+#: admin/settings.php:80
+#: admin/settings.php:102
+msgid "Save"
+msgstr "저장"
+
+#: admin/settings.php:62
+msgid "Default WordPress Widgets"
+msgstr "기본 워드프레스 위젯"
+
+#: admin/settings.php:85
+msgid "Other Settings"
+msgstr "기타 설정"
+
+#: admin/settings.php:90
+msgid "Load default CSS file"
+msgstr "기본 CSS 파일 이용"
+
+#: admin/settings.php:95
+msgid "Write debug info into file"
+msgstr "디버그 정보를 파일로 기록"
+
+#: widgets/gdsw-future-posts/basic.php:2
+#: widgets/gdsw-most-commented/basic.php:2
+#: widgets/gdsw-popular-posts/basic.php:2
+#: widgets/gdsw-random-posts/basic.php:2
+#: widgets/gdsw-recent-posts/basic.php:2
+#: widgets/gdsw-related-posts/basic.php:2
+msgid "Posts to show"
+msgstr "보여줄 글 수"
+
+#: widgets/gdsw-future-posts/basic.php:8
+#: widgets/gdsw-most-commented/basic.php:8
+#: widgets/gdsw-popular-posts/basic.php:8
+#: widgets/gdsw-posts-authors/basic.php:8
+#: widgets/gdsw-random-posts/basic.php:8
+#: widgets/gdsw-recent-comments/basic.php:8
+#: widgets/gdsw-recent-posts/basic.php:8
+#: widgets/gdsw-related-posts/basic.php:8
+msgid "Hide widget if no results found"
+msgstr "보여줄 결과가 없으면 위젯 숨기기"
+
+#: widgets/gdsw-future-posts/display.php:2
+#: widgets/gdsw-most-commented/display.php:2
+#: widgets/gdsw-popular-posts/display.php:2
+#: widgets/gdsw-posts-authors/display.php:2
+#: widgets/gdsw-random-posts/display.php:2
+#: widgets/gdsw-recent-comments/display.php:2
+#: widgets/gdsw-recent-posts/display.php:2
+#: widgets/gdsw-related-posts/display.php:2
+#: widgets/gdsw-simple-125-ads/display.php:2
+msgid "Additional CSS class"
+msgstr "추가 CSS 클래스"
+
+#: widgets/gdsw-future-posts/display.php:6
+#: widgets/gdsw-popular-posts/display.php:12
+#: widgets/gdsw-random-posts/display.php:6
+#: widgets/gdsw-recent-posts/display.php:6
+#: widgets/gdsw-related-posts/display.php:6
+msgid "Short excerpt from the post"
+msgstr "글 요약 보여주기"
+
+#: widgets/gdsw-future-posts/display.php:12
+#: widgets/gdsw-popular-posts/display.php:18
+#: widgets/gdsw-random-posts/display.php:12
+#: widgets/gdsw-recent-posts/display.php:12
+#: widgets/gdsw-related-posts/display.php:12
+msgid "Excerpt words limit"
+msgstr "글 요약 단어 수 제한"
+
+#: widgets/gdsw-future-posts/display.php:16
+#: widgets/gdsw-popular-posts/display.php:22
+#: widgets/gdsw-random-posts/display.php:16
+#: widgets/gdsw-recent-posts/display.php:16
+#: widgets/gdsw-related-posts/display.php:16
+msgid "Display post date"
+msgstr "글 작성일 보여주기"
+
+#: widgets/gdsw-future-posts/display.php:22
+#: widgets/gdsw-popular-posts/display.php:28
+#: widgets/gdsw-random-posts/display.php:22
+#: widgets/gdsw-recent-posts/display.php:22
+#: widgets/gdsw-related-posts/display.php:22
+msgid "Post date format"
+msgstr "글 작성일 표시 형식"
+
+#: widgets/gdsw-future-posts/filter.php:2
+#: widgets/gdsw-most-commented/filter.php:13
+#: widgets/gdsw-popular-posts/filter.php:25
+#: widgets/gdsw-posts-authors/filter.php:2
+#: widgets/gdsw-random-posts/filter.php:24
+#: widgets/gdsw-recent-comments/filter.php:12
+#: widgets/gdsw-recent-posts/filter.php:2
+msgid "Filter by category"
+msgstr "분류로 걸러내기"
+
+#: widgets/gdsw-future-posts/filter.php:7
+#: widgets/gdsw-most-commented/filter.php:17
+#: widgets/gdsw-popular-posts/filter.php:29
+#: widgets/gdsw-posts-authors/filter.php:6
+#: widgets/gdsw-random-posts/filter.php:28
+#: widgets/gdsw-recent-comments/filter.php:16
+#: widgets/gdsw-recent-posts/filter.php:6
+msgid "comma separated list of category ids"
+msgstr "분류 고유번호(ID)를 쉼표(,)로 구분하세요"
+
+#: widgets/gdsw-future-posts/filter.php:8
+#: widgets/gdsw-most-commented/filter.php:18
+#: widgets/gdsw-popular-posts/filter.php:30
+#: widgets/gdsw-posts-authors/filter.php:7
+#: widgets/gdsw-random-posts/filter.php:29
+#: widgets/gdsw-recent-comments/filter.php:17
+#: widgets/gdsw-recent-posts/filter.php:7
+msgid "leave empty to include all categories"
+msgstr "전체 분류를 포함하려면 비워두세요"
+
+#: widgets/gdsw-most-commented/display.php:6
+msgid "Show comments count"
+msgstr "댓글 수 보여주기"
+
+#: widgets/gdsw-most-commented/filter.php:2
+msgid "Filter by post publish date"
+msgstr "발행일로 걸러내기"
+
+#: widgets/gdsw-most-commented/filter.php:5
+msgid "All posts"
+msgstr "전체 글"
+
+#: widgets/gdsw-most-commented/filter.php:6
+#: widgets/gdsw-popular-posts/filter.php:8
+#: widgets/gdsw-random-posts/filter.php:7
+msgid "Last week"
+msgstr "지난 주"
+
+#: widgets/gdsw-most-commented/filter.php:7
+#: widgets/gdsw-popular-posts/filter.php:9
+#: widgets/gdsw-random-posts/filter.php:8
+msgid "Last month"
+msgstr "지난 달"
+
+#: widgets/gdsw-most-commented/filter.php:8
+#: widgets/gdsw-popular-posts/filter.php:10
+#: widgets/gdsw-random-posts/filter.php:9
+msgid "Last year"
+msgstr "지난 해"
+
+#: widgets/gdsw-popular-posts/display.php:6
+msgid "Show number of views"
+msgstr "조회 수 보여주기"
+
+#: widgets/gdsw-popular-posts/filter.php:2
+#: widgets/gdsw-random-posts/filter.php:2
+msgid "Filter by date"
+msgstr "날짜로 걸러내기"
+
+#: widgets/gdsw-popular-posts/filter.php:5
+#: widgets/gdsw-random-posts/filter.php:5
+msgid "All time"
+msgstr "전체 기간"
+
+#: widgets/gdsw-popular-posts/filter.php:6
+msgid "Today only"
+msgstr "오늘만"
+
+#: widgets/gdsw-popular-posts/filter.php:7
+#: widgets/gdsw-random-posts/filter.php:6
+msgid "Last 24 hours"
+msgstr "지난 24시간"
+
+#: widgets/gdsw-popular-posts/filter.php:15
+#: widgets/gdsw-random-posts/filter.php:14
+#: widgets/gdsw-recent-comments/filter.php:2
+msgid "Filter by type"
+msgstr "글 유형으로 걸러내기"
+
+#: widgets/gdsw-popular-posts/filter.php:18
+#: widgets/gdsw-random-posts/filter.php:17
+msgid "Both posts and pages"
+msgstr "글과 고정글 모두"
+
+#: widgets/gdsw-popular-posts/filter.php:19
+#: widgets/gdsw-random-posts/filter.php:18
+msgid "Only posts"
+msgstr "글만"
+
+#: widgets/gdsw-popular-posts/filter.php:20
+#: widgets/gdsw-random-posts/filter.php:19
+msgid "Only pages"
+msgstr "고정글만"
+
+#: widgets/gdsw-popular-posts/filter.php:31
+msgid "using this will eliminate all pages from results"
+msgstr "분류로 걸러내면 고정글은 보여지지 않습니다"
+
+#: widgets/gdsw-popular-posts/filter.php:35
+msgid "Include views from"
+msgstr "보여줄 글 조회수"
+
+#: widgets/gdsw-popular-posts/filter.php:38
+msgid "Both users and visitors"
+msgstr "로그인한 사용자와 일반 방문자 모두"
+
+#: widgets/gdsw-popular-posts/filter.php:39
+msgid "Only users"
+msgstr "로그인한 사용자만"
+
+#: widgets/gdsw-popular-posts/filter.php:40
+msgid "Only visitors"
+msgstr "일반 방문자만"
+
+#: widgets/gdsw-posts-authors/basic.php:2
+msgid "Authors to show"
+msgstr "보여줄 글 작성자 수"
+
+#: widgets/gdsw-posts-authors/display.php:6
+#: widgets/gdsw-recent-comments/display.php:6
+msgid "Display author's gravatar"
+msgstr "글쓴이의 그라바타 표시"
+
+#: widgets/gdsw-posts-authors/display.php:12
+#: widgets/gdsw-recent-comments/display.php:12
+msgid "Gravatar dimension (px)"
+msgstr "그라바타 크기 (픽센 단위)"
+
+#: widgets/gdsw-posts-authors/display.php:16
+msgid "Show posts count"
+msgstr "발행한 글 수 보여주기"
+
+#: widgets/gdsw-posts-authors/display.php:22
+msgid "Show author's full name"
+msgstr "글쓴이의 이름 표시"
+
+#: widgets/gdsw-posts-authors/filter.php:11
+msgid "Minimum published posts"
+msgstr "최소 발행한 글 수"
+
+#: widgets/gdsw-recent-comments/basic.php:2
+msgid "Comments to show"
+msgstr "보여줄 댓글"
+
+#: widgets/gdsw-recent-comments/filter.php:5
+msgid "Comments only"
+msgstr "댓글만"
+
+#: widgets/gdsw-recent-comments/filter.php:6
+msgid "Pings only"
+msgstr "엮인글과 고리글만"
+
+#: widgets/gdsw-recent-comments/filter.php:7
+msgid "Comments and pings"
+msgstr "댓글과 엮인글, 고리글 모두"
+
+#: widgets/gdsw-related-posts/basic.php:14
+msgid "Show only on single post page"
+msgstr "낱글(Single Post)에서만 위젯 보여주기"
+
+#: widgets/gdsw-related-posts/filter.php:2
+msgid "Use to get relations"
+msgstr "연관 글 측정 기준"
+
+#: widgets/gdsw-related-posts/filter.php:5
+msgid "Tags and Categories"
+msgstr "꼬리표와 분류"
+
+#: widgets/gdsw-related-posts/filter.php:6
+msgid "Categories only"
+msgstr "분류만"
+
+#: widgets/gdsw-related-posts/filter.php:7
+msgid "Tags only"
+msgstr "꼬리표만"
+
+#: widgets/gdsw-simple-125-ads/filter.php:2
+msgid "Ad left"
+msgstr "왼쪽 광고"
+
+#: widgets/gdsw-simple-125-ads/filter.php:6
+msgid "Ad right"
+msgstr "오른쪽 광고"
+
+#: widgets/shared/shared.php:2
+msgid "Title"
+msgstr "위젯 이름"
+
+#: widgets/shared/shared.php:7
+msgid "leave empty to skip rendering title"
+msgstr "위젯에 이름을 달지 않으시려면 비워 두세요."
+
+#: widgets/gdsw-future-posts.php:18
+msgid "Display scheduled posts."
+msgstr "발행 예약된 글 표시"
+
+#: widgets/gdsw-most-commented.php:15
+msgid "Most commented posts."
+msgstr "댓글이 많이 달린 글"
+
+#: widgets/gdsw-popular-posts.php:21
+msgid "Display popular posts."
+msgstr "인기 글 표시"
+
+#: widgets/gdsw-popular-posts.php:123
+msgid "view"
+msgstr "조회"
+
+#: widgets/gdsw-popular-posts.php:123
+msgid "views"
+msgstr "번 조회"
+
+#: widgets/gdsw-posts-authors.php:18
+msgid "List of posts authors."
+msgstr "글쓴이 목록"
+
+#: widgets/gdsw-random-posts.php:20
+msgid "Display random posts."
+msgstr "무작위로 글 목록 표시"
+
+#: widgets/gdsw-recent-comments.php:16
+msgid "Expanded widget with recent comments."
+msgstr "확장된 최근 댓글 위젯"
+
+#: widgets/gdsw-recent-posts.php:17
+msgid "Expanded widget with recent posts."
+msgstr "확장된 최근 글 위젯"
+
+#: widgets/gdsw-related-posts.php:19
+msgid "Display related posts."
+msgstr "연관 글 보여주기"
+
+#: widgets/gdsw-simple-125-ads.php:14
+msgid "Display two 125x125 ads."
+msgstr "125x125 픽셀 광고 2개 표시"
+
+#: gd-simple-widgets.php:157
+msgid "Settings"
+msgstr "설정"
+

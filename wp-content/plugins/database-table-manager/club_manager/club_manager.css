@@ -1,0 +1,18 @@
+#toplevel_page_database-table-manager-club_manager-jcl_programme-jcl_programme .wp-menu-image,
+#toplevel_page_club_manager-jcl_programme-jcl_programme .wp-menu-image
+{
+background-image:url(icon.png);
+}
+
+#toplevel_page_database-table-manager-club_manager-jcl_programme-jcl_programme:hover .wp-menu-image,
+#toplevel_page_club_manager-jcl_programme-jcl_programme:hover .wp-menu-image
+{
+background-image:url(iconc.png) !important;
+}
+
+#toplevel_page_database-table-manager-club_manager-jcl_programme-jcl_programme.wp-menu-open div.wp-menu-image,
+#toplevel_page_club_manager-jcl_programme-jcl_programme.wp-menu-open div.wp-menu-image
+{
+background-image:url(iconc.png) !important;
+}
+

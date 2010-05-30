@@ -1,0 +1,46 @@
+#toplevel_page_jcl_sp_links_sp-jcl_sp_links_sp .wp-menu-image
+{
+background-image:url(icon.png);
+}
+
+#toplevel_page_jcl_sp_links_sp-jcl_sp_links_sp:hover .wp-menu-image
+{
+background-image:url(iconc.png) !important;
+}
+
+#toplevel_page_jcl_sp_links_sp-jcl_sp_links_sp.wp-menu-open .wp-menu-image
+{
+background-image:url(iconc.png);
+}
+
+#jcl_sp_links_sp_icon32
+{
+background-image:url(icon32.png);
+}
+
+.edit_form_jcl_sp_links_sp th
+{
+cursor:pointer;
+}
+
+.edit_form_jcl_sp_links_sp th div.u
+{
+background-image:url(includes/sortup.gif) !important;
+width:20px;
+height:10px;
+float:right;
+margin-top:4px;
+margin-right:10px;
+}
+
+
+.edit_form_jcl_sp_links_sp th div.d
+{
+background-image:url(includes/sortdown.gif) !important;
+width:20px;
+height:10px;
+float:right;
+margin-top:4px;
+margin-right:10px;
+}
+

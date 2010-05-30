@@ -1,0 +1,426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD Simple Widgets 1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-22 15:41+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_n_noop:1,2;_nc:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\gd-simple-widgets\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\gd-simple-widgets\n"
+
+#: d:\wordpress\plugins\gd-simple-widgets/gd-simple-widgets.php:158
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:4
+msgid "Info"
+msgstr "Info"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:8
+msgid "Version"
+msgstr "Version"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:9
+msgid "release date"
+msgstr "Udgivelsesdato"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:13
+msgid "Change Log"
+msgstr "Log over ændringer"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:14
+msgid "detailed list of changes"
+msgstr "detaljeret liste over ændringer"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:15
+msgid "show"
+msgstr "vis"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:19
+msgid "Links"
+msgstr "Links"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:24
+msgid "official plugin page"
+msgstr "Pluginnets officielle side"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:25
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:30
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:35
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:40
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:64
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:69
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:74
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:79
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:84
+msgid "visit"
+msgstr "besøg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:29
+msgid "discussions group"
+msgstr "diskussionsgruppe"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:34
+msgid "wordpress plugin page"
+msgstr "WordPress' pluginside"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:38
+msgid "Donate"
+msgstr "Donér"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:39
+msgid "help further development"
+msgstr "støt fortsat udvikling"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:44
+msgid "Pro Edition"
+msgstr "Pro-udgave"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:48
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:62
+msgid "Official Website"
+msgstr "Officiel webside"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:49
+msgid "extended premium version"
+msgstr "udvidet luksus-version"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:63
+msgid "golden dragon official web portal"
+msgstr "Gylden Drages officielle webportal"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:68
+msgid "a wordpress rating system"
+msgstr "Et bedømmelsessystem til WordPress"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:73
+msgid "wordpress development"
+msgstr "udvikling i WordPress"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:77
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:78
+msgid "development discussion forum"
+msgstr "Diskussionsforum vedr. udvikling"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/info.php:83
+msgid "announcements and theme demo"
+msgstr "nyheder og tema-demo"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/panel.php:9
+msgid "collection of simple sidebar widgets"
+msgstr "samling af simple sidepanel-widgets"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:3
+msgid "Available Widgets"
+msgstr "Tilgængelige widgets"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:5
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:65
+msgid "Unchecked widgets will not be available on the Widgets panel."
+msgstr "Umarkerede widgets er ikke tilgængelige i widget-kontrolpanelet"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:52
+msgid "is required."
+msgstr "kræves."
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:58
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:81
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:103
+msgid "Save"
+msgstr "Gem"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:63
+msgid "Default WordPress Widgets"
+msgstr "Standard-WordPress-widgets"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:86
+msgid "Other Settings"
+msgstr "Andre indstillinger"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:91
+msgid "Load default CSS file"
+msgstr "Indlæst standard-CSS-fil"
+
+#: d:\wordpress\plugins\gd-simple-widgets/admin/settings.php:96
+msgid "Write debug info into file"
+msgstr "Skriv debug-info til fil"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts.php:19
+msgid "Display scheduled posts."
+msgstr "Vis planlagte indlæg."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented.php:16
+msgid "Most commented posts."
+msgstr "Mest-kommenterede indlæg."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts.php:22
+msgid "Display popular posts."
+msgstr "Vis populære indlæg."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts.php:117
+msgid "view"
+msgstr "visning"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts.php:117
+msgid "views"
+msgstr "besøg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors.php:19
+msgid "List of posts authors."
+msgstr "Liste med indlægsforfattere."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-random-posts.php:21
+msgid "Display random posts."
+msgstr "Vis tilfældige indlæg."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-recent-comments.php:17
+msgid "Expanded widget with recent comments."
+msgstr "Udvidet widget med nye kommentarer."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-recent-posts.php:18
+msgid "Expanded widget with recent posts."
+msgstr "Udvidet widget med nye indlæg."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-related-posts.php:20
+msgid "Display related posts."
+msgstr "Vis relaterede indlæg."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-simple-125-ads.php:15
+msgid "Display two 125x125 ads."
+msgstr "Vis to 125x125 annoncer."
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/basic.php:3
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/basic.php:3
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/basic.php:3
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/basic.php:3
+msgid "Title"
+msgstr "Titel"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/basic.php:7
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/basic.php:7
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/basic.php:7
+msgid "Posts to show"
+msgstr "Indlæg, der skal vises"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/basic.php:13
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/basic.php:13
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/basic.php:13
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/basic.php:13
+msgid "Hide widget if no results found"
+msgstr "Skjul widget, hvis ingen resultater"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/display.php:3
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/display.php:3
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/display.php:3
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/display.php:3
+msgid "Additional CSS class"
+msgstr "Ekstra CSS-class"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/display.php:7
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/display.php:13
+msgid "Short excerpt from the post"
+msgstr "Kort uddrag af indlægget"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/display.php:13
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/display.php:19
+msgid "Excerpt words limit"
+msgstr "Max antal ord i uddrag"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/display.php:17
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/display.php:23
+msgid "Display post date"
+msgstr "Vis indlæggenes dato"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/display.php:23
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/display.php:29
+msgid "Post date format"
+msgstr "Datoformat i indlæg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/filter.php:3
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:14
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:26
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/filter.php:3
+msgid "Filter by category"
+msgstr "Filtrér på kategori"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/filter.php:8
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:18
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:30
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/filter.php:7
+msgid "comma separated list of category ids"
+msgstr "kommasepareret liste med kategori-id'er"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-future-posts/filter.php:9
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:19
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:31
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/filter.php:8
+msgid "leave empty to include all categories"
+msgstr "udfyldes ikke, hvis alle kategorier skal med"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/display.php:7
+msgid "Show comments count"
+msgstr "Vis antal kommentarer"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:3
+msgid "Filter by post publish date"
+msgstr "Filtrér med indlægs udgivelsesdato"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:6
+msgid "All posts"
+msgstr "Alle indlæg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:7
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:9
+msgid "Last week"
+msgstr "Seneste uge"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:8
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:10
+msgid "Last month"
+msgstr "Seneste måned"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-most-commented/filter.php:9
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:11
+msgid "Last year"
+msgstr "Seneste år"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/display.php:7
+msgid "Show number of views"
+msgstr "Vis antal visninger"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:3
+msgid "Filter by date"
+msgstr "Filtrér på dato"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:6
+msgid "All time"
+msgstr "Alt"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:7
+msgid "Today only"
+msgstr "Kun i dag"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:8
+msgid "Last 24 hours"
+msgstr "Sidste 24 timer"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:16
+msgid "Filter by type"
+msgstr "Filtrér på type"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:19
+msgid "Both posts and pages"
+msgstr "Både indlæg og sider"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:20
+msgid "Only posts"
+msgstr "Kun indlæg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:21
+msgid "Only pages"
+msgstr "Kun sider"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:32
+msgid "using this will eliminate all pages from results"
+msgstr "Brugen heraf vil fjerne alle sider fra resultaterne"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:36
+msgid "Include views from"
+msgstr "Inkludér visninger fra"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:39
+msgid "Both users and visitors"
+msgstr "Både brugere og besøgende"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:40
+msgid "Only users"
+msgstr "Kun brugere"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-popular-posts/filter.php:41
+msgid "Only visitors"
+msgstr "Kun besøgende"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/basic.php:7
+msgid "Authors to show"
+msgstr "Forfattere, der skal vises"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/display.php:7
+msgid "Display author's gravatar"
+msgstr "Vis forfatters gravatar"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/display.php:13
+msgid "Gravatar dimension (px)"
+msgstr "Gravatar-størrelse (px)"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/display.php:17
+msgid "Show posts count"
+msgstr "Vis antal indlæg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/display.php:23
+msgid "Show author's full name"
+msgstr "Vis forfatters fulde navn"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-posts-authors/filter.php:12
+msgid "Minimum published posts"
+msgstr "Min. udgivne indlæg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-recent-comments/basic.php:7
+msgid "Comments to show"
+msgstr "Kommentarer, der skal vises"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-recent-comments/filter.php:6
+msgid "Comments only"
+msgstr "Kun kommentarer"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-recent-comments/filter.php:7
+msgid "Pings only"
+msgstr "Kun pingbacks"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-recent-comments/filter.php:8
+msgid "Comments and pings"
+msgstr "Kommentarer og pingbacks"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-related-posts/basic.php:19
+msgid "Show only on single post page"
+msgstr "Vis kun på sider med enkelt-indlæg"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-related-posts/filter.php:3
+msgid "Use to get relations"
+msgstr "Brug for at få relationer"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-related-posts/filter.php:6
+msgid "Tags and Categories"
+msgstr "Tags og kategorier"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-related-posts/filter.php:7
+msgid "Categories only"
+msgstr "Kun kategorier"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-related-posts/filter.php:8
+msgid "Tags only"
+msgstr "Kun tags"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-simple-125-ads/ads.php:3
+msgid "Ad left"
+msgstr "Annonce til venstre"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-simple-125-ads/ads.php:7
+msgid "Ad right"
+msgstr "Annonce til højre"
+
+#: d:\wordpress\plugins\gd-simple-widgets/widgets/gdsw-simple-125-ads/basic.php:8
+msgid "leave empty to skip rendering title"
+msgstr "udfyldes ikke, hvis titlen ikke skal med"
+
